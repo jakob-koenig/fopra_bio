@@ -1,0 +1,2 @@
+Namespace(output_folder='/p/project1/hai_fzj_bda/koenig8/histo/embeddings')
+Loading model cuda

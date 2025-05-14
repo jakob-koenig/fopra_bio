@@ -1,0 +1,308 @@
+Namespace(output_folder='/p/project1/hai_fzj_bda/koenig8/histo/embeddings_1024', patch_size='1024')
+Loading model cuda
+File 100966105
+	 padded 53 out of 1844
+Patches.shape: (1844, 1024, 1024, 3)
+File 100960192
+Patches.shape: (1531, 1024, 1024, 3)
+File 100960212
+	 padded 8 out of 1452
+Patches.shape: (1452, 1024, 1024, 3)
+File 100960320
+Patches.shape: (1917, 1024, 1024, 3)
+File 100960076
+Patches.shape: (2308, 1024, 1024, 3)
+File 100960456
+	 padded 1 out of 194
+Patches.shape: (194, 1024, 1024, 3)
+File 100960264
+	 padded 14 out of 2291
+Patches.shape: (2291, 1024, 1024, 3)
+File 100960372
+Patches.shape: (1418, 1024, 1024, 3)
+File 100960228
+Patches.shape: (2409, 1024, 1024, 3)
+File 100960468
+Patches.shape: (315, 1024, 1024, 3)
+File 100960297
+Patches.shape: (2058, 1024, 1024, 3)
+File 100966092
+Patches.shape: (1764, 1024, 1024, 3)
+File 100960301
+Patches.shape: (2033, 1024, 1024, 3)
+File 100960333
+Patches.shape: (1699, 1024, 1024, 3)
+File 100960152
+	 padded 28 out of 1495
+Patches.shape: (1495, 1024, 1024, 3)
+File 100960305
+Patches.shape: (2002, 1024, 1024, 3)
+File 100960128
+Patches.shape: (1420, 1024, 1024, 3)
+File 100960244
+	 padded 16 out of 2190
+Patches.shape: (2190, 1024, 1024, 3)
+File 100960124
+	 padded 45 out of 1406
+Patches.shape: (1406, 1024, 1024, 3)
+No annotations for 100960098 ....skipping.....
+File 100960148
+Patches.shape: (1499, 1024, 1024, 3)
+File 100960476
+	 padded 13 out of 80
+Patches.shape: (80, 1024, 1024, 3)
+File 100960312
+Patches.shape: (1936, 1024, 1024, 3)
+File 100960053
+Patches.shape: (2164, 1024, 1024, 3)
+File 100966117
+	 padded 10 out of 2023
+Patches.shape: (2023, 1024, 1024, 3)
+File 100960496
+	 padded 15 out of 375
+Patches.shape: (375, 1024, 1024, 3)
+File 100960396
+Patches.shape: (1067, 1024, 1024, 3)
+File 100960420
+Patches.shape: (641, 1024, 1024, 3)
+File 100960252
+	 padded 6 out of 2294
+Patches.shape: (2294, 1024, 1024, 3)
+File 100960368
+Patches.shape: (1415, 1024, 1024, 3)
+File 100960280
+Patches.shape: (2151, 1024, 1024, 3)
+File 100960472
+	 padded 7 out of 209
+Patches.shape: (209, 1024, 1024, 3)
+File 100960424
+Patches.shape: (649, 1024, 1024, 3)
+File 100960512
+	 padded 6 out of 192
+Patches.shape: (192, 1024, 1024, 3)
+File 100960049
+Patches.shape: (2164, 1024, 1024, 3)
+File 100960508
+	 padded 3 out of 299
+Patches.shape: (299, 1024, 1024, 3)
+File 100966096
+Patches.shape: (1812, 1024, 1024, 3)
+File 100960224
+	 padded 68 out of 2330
+Patches.shape: (2330, 1024, 1024, 3)
+File 100966088
+Patches.shape: (1731, 1024, 1024, 3)
+File 100960168
+Patches.shape: (1620, 1024, 1024, 3)
+File 100960165
+Patches.shape: (1544, 1024, 1024, 3)
+File 100960088
+Patches.shape: (2201, 1024, 1024, 3)
+File 100960328
+	 padded 6 out of 1843
+Patches.shape: (1843, 1024, 1024, 3)
+File 100960200
+	 padded 29 out of 1422
+Patches.shape: (1422, 1024, 1024, 3)
+File 100960065
+Patches.shape: (1990, 1024, 1024, 3)
+File 100960316
+Patches.shape: (1995, 1024, 1024, 3)
+File 100960404
+Patches.shape: (912, 1024, 1024, 3)
+File 100960033
+Patches.shape: (2104, 1024, 1024, 3)
+File 100960108
+	 padded 13 out of 712
+Patches.shape: (712, 1024, 1024, 3)
+File 100960388
+	 padded 24 out of 1177
+Patches.shape: (1177, 1024, 1024, 3)
+File 100960492
+	 padded 24 out of 403
+Patches.shape: (403, 1024, 1024, 3)
+File 100960376
+Patches.shape: (1358, 1024, 1024, 3)
+File 100960289
+Patches.shape: (2087, 1024, 1024, 3)
+File 100960057
+Patches.shape: (2157, 1024, 1024, 3)
+File 100960336
+	 padded 15 out of 1716
+Patches.shape: (1716, 1024, 1024, 3)
+File 100960260
+	 padded 9 out of 2266
+Patches.shape: (2266, 1024, 1024, 3)
+File 100960464
+	 padded 6 out of 424
+Patches.shape: (424, 1024, 1024, 3)
+File 100960120
+Patches.shape: (1354, 1024, 1024, 3)
+File 100960116
+Patches.shape: (1198, 1024, 1024, 3)
+File 100960460
+Patches.shape: (339, 1024, 1024, 3)
+File 100960356
+	 padded 4 out of 1569
+Patches.shape: (1569, 1024, 1024, 3)
+File 100960413
+Patches.shape: (810, 1024, 1024, 3)
+File 100960268
+	 padded 9 out of 2285
+Patches.shape: (2285, 1024, 1024, 3)
+File 100960516
+Patches.shape: (69, 1024, 1024, 3)
+File 100966108
+	 padded 11 out of 1967
+Patches.shape: (1967, 1024, 1024, 3)
+File 100960309
+Patches.shape: (1987, 1024, 1024, 3)
+File 100960172
+Patches.shape: (1609, 1024, 1024, 3)
+File 100960344
+Patches.shape: (1635, 1024, 1024, 3)
+File 100960488
+	 padded 4 out of 324
+Patches.shape: (324, 1024, 1024, 3)
+File 100960236
+Patches.shape: (2346, 1024, 1024, 3)
+File 100960400
+Patches.shape: (910, 1024, 1024, 3)
+File 100960092
+Patches.shape: (2322, 1024, 1024, 3)
+File 100960256
+Patches.shape: (2256, 1024, 1024, 3)
+File 100960284
+	 padded 2 out of 2193
+Patches.shape: (2193, 1024, 1024, 3)
+File 100960197
+	 padded 40 out of 1498
+Patches.shape: (1498, 1024, 1024, 3)
+File 100960156
+Patches.shape: (1509, 1024, 1024, 3)
+File 100960081
+Patches.shape: (2332, 1024, 1024, 3)
+File 100960273
+Patches.shape: (2194, 1024, 1024, 3)
+File 100960384
+Patches.shape: (1225, 1024, 1024, 3)
+File 100960112
+Patches.shape: (949, 1024, 1024, 3)
+File 100960500
+Patches.shape: (346, 1024, 1024, 3)
+File 100960240
+	 padded 2 out of 2343
+Patches.shape: (2343, 1024, 1024, 3)
+File 100960132
+	 padded 38 out of 1430
+Patches.shape: (1430, 1024, 1024, 3)
+File 100960104
+Patches.shape: (428, 1024, 1024, 3)
+File 100960069
+Patches.shape: (2112, 1024, 1024, 3)
+File 100960248
+Patches.shape: (2215, 1024, 1024, 3)
+File 100960428
+Patches.shape: (556, 1024, 1024, 3)
+File 100960044
+Patches.shape: (2096, 1024, 1024, 3)
+File 100960352
+Patches.shape: (1633, 1024, 1024, 3)
+File 100960484
+	 padded 10 out of 175
+Patches.shape: (175, 1024, 1024, 3)
+File 100960073
+Patches.shape: (2271, 1024, 1024, 3)
+File 100960440
+Patches.shape: (266, 1024, 1024, 3)
+File 100960408
+Patches.shape: (814, 1024, 1024, 3)
+File 100960504
+	 padded 11 out of 317
+Patches.shape: (317, 1024, 1024, 3)
+File 100960525
+Patches.shape: (2091, 1024, 1024, 3)
+File 100960348
+Patches.shape: (1671, 1024, 1024, 3)
+File 100960324
+	 padded 1 out of 1887
+Patches.shape: (1887, 1024, 1024, 3)
+File 100960380
+Patches.shape: (1282, 1024, 1024, 3)
+File 100960188
+Patches.shape: (1644, 1024, 1024, 3)
+File 100960392
+Patches.shape: (1107, 1024, 1024, 3)
+File 100960144
+	 padded 20 out of 1534
+Patches.shape: (1534, 1024, 1024, 3)
+File 100960452
+Patches.shape: (83, 1024, 1024, 3)
+File 100960276
+	 padded 15 out of 2215
+Patches.shape: (2215, 1024, 1024, 3)
+File 100960176
+	 padded 7 out of 1657
+Patches.shape: (1657, 1024, 1024, 3)
+File 100960448
+Patches.shape: (39, 1024, 1024, 3)
+File 100960181
+Patches.shape: (1633, 1024, 1024, 3)
+File 100960437
+Patches.shape: (399, 1024, 1024, 3)
+File 100960360
+Patches.shape: (1559, 1024, 1024, 3)
+File 100960140
+	 padded 27 out of 1498
+Patches.shape: (1498, 1024, 1024, 3)
+File 100960101
+Patches.shape: (121, 1024, 1024, 3)
+File 100960037
+Patches.shape: (2101, 1024, 1024, 3)
+File 100960221
+Patches.shape: (1715, 1024, 1024, 3)
+File 100960204
+	 padded 42 out of 1319
+Patches.shape: (1319, 1024, 1024, 3)
+File 100960432
+Patches.shape: (498, 1024, 1024, 3)
+File 100960293
+Patches.shape: (2108, 1024, 1024, 3)
+File 100960184
+Patches.shape: (1596, 1024, 1024, 3)
+File 100960416
+Patches.shape: (715, 1024, 1024, 3)
+File 100960232
+Patches.shape: (2292, 1024, 1024, 3)
+File 100960340
+Patches.shape: (1685, 1024, 1024, 3)
+File 100960520
+Patches.shape: (2, 1024, 1024, 3)
+File 100960084
+Patches.shape: (2286, 1024, 1024, 3)
+File 100960208
+Patches.shape: (1406, 1024, 1024, 3)
+File 100960041
+Patches.shape: (3815, 1024, 1024, 3)
+File 100966101
+	 padded 25 out of 1865
+Patches.shape: (1865, 1024, 1024, 3)
+File 100960444
+Patches.shape: (135, 1024, 1024, 3)
+File 100960216
+	 padded 14 out of 1444
+Patches.shape: (1444, 1024, 1024, 3)
+File 100960365
+Patches.shape: (1507, 1024, 1024, 3)
+File 100960160
+Patches.shape: (1484, 1024, 1024, 3)
+File 100966113
+	 padded 13 out of 2021
+Patches.shape: (2021, 1024, 1024, 3)
+File 100960480
+	 padded 8 out of 50
+Patches.shape: (50, 1024, 1024, 3)
+File 100960061
+Patches.shape: (2061, 1024, 1024, 3)
+File 100960136
+Patches.shape: (1544, 1024, 1024, 3)

@@ -1,0 +1,5 @@
+GRES                
+mem96:no_consume:1  
+mem96:no_consume:1,m
+mem96:no_consume:1,m
+mem512:no_consume:1,

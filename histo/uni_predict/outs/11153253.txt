@@ -1,0 +1,289 @@
+Namespace(output_folder='/p/project1/hai_fzj_bda/koenig8/histo/embeddings_scaled_768', image_folder='/p/project1/hai_fzj_bda/koenig8/histo/data/scaled_images', patch_size='768')
+Loading model cuda
+File 100966105
+	 padded 16 out of 1844
+Patches.shape: (1844, 768, 768, 3)
+File 100960192
+Patches.shape: (1531, 768, 768, 3)
+File 100960212
+Patches.shape: (1452, 768, 768, 3)
+File 100960320
+Patches.shape: (1917, 768, 768, 3)
+File 100960076
+Patches.shape: (2308, 768, 768, 3)
+File 100960456
+	 padded 1 out of 194
+Patches.shape: (194, 768, 768, 3)
+File 100960264
+	 padded 3 out of 2291
+Patches.shape: (2291, 768, 768, 3)
+File 100960372
+Patches.shape: (1418, 768, 768, 3)
+File 100960228
+Patches.shape: (2409, 768, 768, 3)
+File 100960468
+Patches.shape: (315, 768, 768, 3)
+File 100960297
+Patches.shape: (2058, 768, 768, 3)
+File 100966092
+Patches.shape: (1764, 768, 768, 3)
+File 100960301
+Patches.shape: (2033, 768, 768, 3)
+File 100960333
+Patches.shape: (1699, 768, 768, 3)
+File 100960152
+Patches.shape: (1495, 768, 768, 3)
+File 100960305
+Patches.shape: (2002, 768, 768, 3)
+File 100960128
+Patches.shape: (1420, 768, 768, 3)
+File 100960244
+Patches.shape: (2190, 768, 768, 3)
+File 100960124
+	 padded 18 out of 1406
+Patches.shape: (1406, 768, 768, 3)
+No annotations for 100960098 ....skipping.....
+File 100960148
+Patches.shape: (1499, 768, 768, 3)
+File 100960476
+	 padded 2 out of 80
+Patches.shape: (80, 768, 768, 3)
+File 100960312
+Patches.shape: (1936, 768, 768, 3)
+File 100960053
+Patches.shape: (2164, 768, 768, 3)
+File 100966117
+Patches.shape: (2023, 768, 768, 3)
+File 100960496
+	 padded 5 out of 375
+Patches.shape: (375, 768, 768, 3)
+File 100960396
+Patches.shape: (1067, 768, 768, 3)
+File 100960420
+Patches.shape: (641, 768, 768, 3)
+File 100960252
+Patches.shape: (2294, 768, 768, 3)
+File 100960368
+Patches.shape: (1415, 768, 768, 3)
+File 100960280
+Patches.shape: (2151, 768, 768, 3)
+File 100960472
+Patches.shape: (209, 768, 768, 3)
+File 100960424
+Patches.shape: (649, 768, 768, 3)
+File 100960512
+Patches.shape: (192, 768, 768, 3)
+File 100960049
+Patches.shape: (2164, 768, 768, 3)
+File 100960508
+Patches.shape: (299, 768, 768, 3)
+File 100966096
+Patches.shape: (1812, 768, 768, 3)
+File 100960224
+	 padded 23 out of 2330
+Patches.shape: (2330, 768, 768, 3)
+File 100966088
+Patches.shape: (1731, 768, 768, 3)
+File 100960168
+Patches.shape: (1620, 768, 768, 3)
+File 100960165
+Patches.shape: (1544, 768, 768, 3)
+File 100960088
+Patches.shape: (2201, 768, 768, 3)
+File 100960328
+	 padded 3 out of 1843
+Patches.shape: (1843, 768, 768, 3)
+File 100960200
+	 padded 4 out of 1422
+Patches.shape: (1422, 768, 768, 3)
+File 100960065
+Patches.shape: (1990, 768, 768, 3)
+File 100960316
+Patches.shape: (1995, 768, 768, 3)
+File 100960404
+Patches.shape: (912, 768, 768, 3)
+File 100960033
+Patches.shape: (2104, 768, 768, 3)
+File 100960108
+Patches.shape: (712, 768, 768, 3)
+File 100960388
+	 padded 2 out of 1177
+Patches.shape: (1177, 768, 768, 3)
+File 100960492
+	 padded 3 out of 403
+Patches.shape: (403, 768, 768, 3)
+File 100960376
+Patches.shape: (1358, 768, 768, 3)
+File 100960289
+Patches.shape: (2087, 768, 768, 3)
+File 100960057
+Patches.shape: (2157, 768, 768, 3)
+File 100960336
+	 padded 3 out of 1716
+Patches.shape: (1716, 768, 768, 3)
+File 100960260
+Patches.shape: (2266, 768, 768, 3)
+File 100960464
+Patches.shape: (424, 768, 768, 3)
+File 100960120
+Patches.shape: (1354, 768, 768, 3)
+File 100960116
+Patches.shape: (1198, 768, 768, 3)
+File 100960460
+Patches.shape: (339, 768, 768, 3)
+File 100960356
+Patches.shape: (1569, 768, 768, 3)
+File 100960413
+Patches.shape: (810, 768, 768, 3)
+File 100960268
+	 padded 3 out of 2285
+Patches.shape: (2285, 768, 768, 3)
+File 100960516
+Patches.shape: (69, 768, 768, 3)
+File 100966108
+	 padded 11 out of 1967
+Patches.shape: (1967, 768, 768, 3)
+File 100960309
+Patches.shape: (1987, 768, 768, 3)
+File 100960172
+Patches.shape: (1609, 768, 768, 3)
+File 100960344
+Patches.shape: (1635, 768, 768, 3)
+File 100960488
+Patches.shape: (324, 768, 768, 3)
+File 100960236
+Patches.shape: (2346, 768, 768, 3)
+File 100960400
+Patches.shape: (910, 768, 768, 3)
+File 100960092
+Patches.shape: (2322, 768, 768, 3)
+File 100960256
+Patches.shape: (2256, 768, 768, 3)
+File 100960284
+Patches.shape: (2193, 768, 768, 3)
+File 100960197
+	 padded 7 out of 1498
+Patches.shape: (1498, 768, 768, 3)
+File 100960156
+Patches.shape: (1509, 768, 768, 3)
+File 100960081
+Patches.shape: (2332, 768, 768, 3)
+File 100960273
+Patches.shape: (2194, 768, 768, 3)
+File 100960384
+Patches.shape: (1225, 768, 768, 3)
+File 100960112
+Patches.shape: (949, 768, 768, 3)
+File 100960500
+Patches.shape: (346, 768, 768, 3)
+File 100960240
+Patches.shape: (2343, 768, 768, 3)
+File 100960132
+	 padded 7 out of 1430
+Patches.shape: (1430, 768, 768, 3)
+File 100960104
+Patches.shape: (428, 768, 768, 3)
+File 100960069
+Patches.shape: (2112, 768, 768, 3)
+File 100960248
+Patches.shape: (2215, 768, 768, 3)
+File 100960428
+Patches.shape: (556, 768, 768, 3)
+File 100960044
+Patches.shape: (2096, 768, 768, 3)
+File 100960352
+Patches.shape: (1633, 768, 768, 3)
+File 100960484
+Patches.shape: (175, 768, 768, 3)
+File 100960073
+Patches.shape: (2271, 768, 768, 3)
+File 100960440
+Patches.shape: (266, 768, 768, 3)
+File 100960408
+Patches.shape: (814, 768, 768, 3)
+File 100960504
+Patches.shape: (317, 768, 768, 3)
+File 100960525
+Patches.shape: (2091, 768, 768, 3)
+File 100960348
+Patches.shape: (1671, 768, 768, 3)
+File 100960324
+Patches.shape: (1887, 768, 768, 3)
+File 100960380
+Patches.shape: (1282, 768, 768, 3)
+File 100960188
+Patches.shape: (1644, 768, 768, 3)
+File 100960392
+Patches.shape: (1107, 768, 768, 3)
+File 100960144
+	 padded 1 out of 1534
+Patches.shape: (1534, 768, 768, 3)
+File 100960452
+Patches.shape: (83, 768, 768, 3)
+File 100960276
+	 padded 5 out of 2215
+Patches.shape: (2215, 768, 768, 3)
+File 100960176
+Patches.shape: (1657, 768, 768, 3)
+File 100960448
+Patches.shape: (39, 768, 768, 3)
+File 100960181
+Patches.shape: (1633, 768, 768, 3)
+File 100960437
+Patches.shape: (399, 768, 768, 3)
+File 100960360
+Patches.shape: (1559, 768, 768, 3)
+File 100960140
+	 padded 2 out of 1498
+Patches.shape: (1498, 768, 768, 3)
+File 100960101
+Patches.shape: (121, 768, 768, 3)
+File 100960037
+Patches.shape: (2101, 768, 768, 3)
+File 100960221
+Patches.shape: (1715, 768, 768, 3)
+File 100960204
+	 padded 19 out of 1319
+Patches.shape: (1319, 768, 768, 3)
+File 100960432
+Patches.shape: (498, 768, 768, 3)
+File 100960293
+Patches.shape: (2108, 768, 768, 3)
+File 100960184
+Patches.shape: (1596, 768, 768, 3)
+File 100960416
+Patches.shape: (715, 768, 768, 3)
+File 100960232
+Patches.shape: (2292, 768, 768, 3)
+File 100960340
+Patches.shape: (1685, 768, 768, 3)
+File 100960520
+Patches.shape: (2, 768, 768, 3)
+File 100960084
+Patches.shape: (2286, 768, 768, 3)
+File 100960208
+Patches.shape: (1406, 768, 768, 3)
+File 100960041
+Patches.shape: (3815, 768, 768, 3)
+File 100966101
+	 padded 4 out of 1865
+Patches.shape: (1865, 768, 768, 3)
+File 100960444
+Patches.shape: (135, 768, 768, 3)
+File 100960216
+	 padded 3 out of 1444
+Patches.shape: (1444, 768, 768, 3)
+File 100960365
+Patches.shape: (1507, 768, 768, 3)
+File 100960160
+Patches.shape: (1484, 768, 768, 3)
+File 100966113
+	 padded 13 out of 2021
+Patches.shape: (2021, 768, 768, 3)
+File 100960480
+	 padded 3 out of 50
+Patches.shape: (50, 768, 768, 3)
+File 100960061
+Patches.shape: (2061, 768, 768, 3)
+File 100960136
+Patches.shape: (1544, 768, 768, 3)

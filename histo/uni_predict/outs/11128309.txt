@@ -1,0 +1,61 @@
+Namespace(output_folder='/p/project1/hai_fzj_bda/koenig8/histo/embeddings')
+Loading model cuda
+File 100966105.jpg
+Patches.shape: (1844, 224, 224, 3)
+torch.Size([1844, 3, 224, 224])
+File 100960192.jpg
+Patches.shape: (1531, 224, 224, 3)
+torch.Size([1531, 3, 224, 224])
+File 100960212.jpg
+Patches.shape: (1452, 224, 224, 3)
+torch.Size([1452, 3, 224, 224])
+File 100960320.jpg
+Patches.shape: (1917, 224, 224, 3)
+torch.Size([1917, 3, 224, 224])
+File 100960076.jpg
+Patches.shape: (2308, 224, 224, 3)
+torch.Size([2308, 3, 224, 224])
+File 100960456.jpg
+Patches.shape: (194, 224, 224, 3)
+torch.Size([194, 3, 224, 224])
+File 100960264.jpg
+Patches.shape: (2291, 224, 224, 3)
+torch.Size([2291, 3, 224, 224])
+File 100960372.jpg
+Patches.shape: (1418, 224, 224, 3)
+torch.Size([1418, 3, 224, 224])
+File 100960228.jpg
+Patches.shape: (2409, 224, 224, 3)
+torch.Size([2409, 3, 224, 224])
+File 100960468.jpg
+Patches.shape: (315, 224, 224, 3)
+torch.Size([315, 3, 224, 224])
+File 100960297.jpg
+Patches.shape: (2058, 224, 224, 3)
+torch.Size([2058, 3, 224, 224])
+File 100966092.jpg
+Patches.shape: (1764, 224, 224, 3)
+torch.Size([1764, 3, 224, 224])
+File 100960301.jpg
+Patches.shape: (2033, 224, 224, 3)
+torch.Size([2033, 3, 224, 224])
+File 100960333.jpg
+Patches.shape: (1699, 224, 224, 3)
+torch.Size([1699, 3, 224, 224])
+File 100960152.jpg
+Patches.shape: (1495, 224, 224, 3)
+torch.Size([1495, 3, 224, 224])
+File 100960305.jpg
+Patches.shape: (2002, 224, 224, 3)
+torch.Size([2002, 3, 224, 224])
+File 100960128.jpg
+Patches.shape: (1420, 224, 224, 3)
+torch.Size([1420, 3, 224, 224])
+File 100960244.jpg
+Patches.shape: (2190, 224, 224, 3)
+torch.Size([2190, 3, 224, 224])
+File 100960124.jpg
+Patches.shape: (1406, 224, 224, 3)
+torch.Size([1406, 3, 224, 224])
+File 100960098.jpg
+Patches.shape: (0,)

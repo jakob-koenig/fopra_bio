@@ -1,0 +1,359 @@
+Namespace(output_folder='/p/project1/hai_fzj_bda/koenig8/histo/embeddings')
+Loading model cuda
+Skipping 100966105 ....
+Skipping 100960192 ....
+Skipping 100960212 ....
+Skipping 100960320 ....
+Skipping 100960076 ....
+Skipping 100960456 ....
+Skipping 100960264 ....
+Skipping 100960372 ....
+Skipping 100960228 ....
+Skipping 100960468 ....
+Skipping 100960297 ....
+Skipping 100966092 ....
+Skipping 100960301 ....
+Skipping 100960333 ....
+Skipping 100960152 ....
+Skipping 100960305 ....
+Skipping 100960128 ....
+Skipping 100960244 ....
+Skipping 100960124 ....
+File 100960098
+No annotations for 100960098 ....skipping.....
+File 100960148
+Patches.shape: (1499, 224, 224, 3)
+torch.Size([1499, 3, 224, 224])
+File 100960476
+Patches.shape: (80, 224, 224, 3)
+torch.Size([80, 3, 224, 224])
+File 100960312
+Patches.shape: (1936, 224, 224, 3)
+torch.Size([1936, 3, 224, 224])
+File 100960053
+Patches.shape: (2164, 224, 224, 3)
+torch.Size([2164, 3, 224, 224])
+File 100966117
+Patches.shape: (2023, 224, 224, 3)
+torch.Size([2023, 3, 224, 224])
+File 100960496
+Patches.shape: (375, 224, 224, 3)
+torch.Size([375, 3, 224, 224])
+File 100960396
+Patches.shape: (1067, 224, 224, 3)
+torch.Size([1067, 3, 224, 224])
+File 100960420
+Patches.shape: (641, 224, 224, 3)
+torch.Size([641, 3, 224, 224])
+File 100960252
+Patches.shape: (2294, 224, 224, 3)
+torch.Size([2294, 3, 224, 224])
+File 100960368
+Patches.shape: (1415, 224, 224, 3)
+torch.Size([1415, 3, 224, 224])
+File 100960280
+Patches.shape: (2151, 224, 224, 3)
+torch.Size([2151, 3, 224, 224])
+File 100960472
+Patches.shape: (209, 224, 224, 3)
+torch.Size([209, 3, 224, 224])
+File 100960424
+Patches.shape: (649, 224, 224, 3)
+torch.Size([649, 3, 224, 224])
+File 100960512
+Patches.shape: (192, 224, 224, 3)
+torch.Size([192, 3, 224, 224])
+File 100960049
+Patches.shape: (2164, 224, 224, 3)
+torch.Size([2164, 3, 224, 224])
+File 100960508
+Patches.shape: (299, 224, 224, 3)
+torch.Size([299, 3, 224, 224])
+File 100966096
+Patches.shape: (1812, 224, 224, 3)
+torch.Size([1812, 3, 224, 224])
+File 100960224
+Patches.shape: (2330, 224, 224, 3)
+torch.Size([2330, 3, 224, 224])
+File 100966088
+Patches.shape: (1731, 224, 224, 3)
+torch.Size([1731, 3, 224, 224])
+File 100960168
+Patches.shape: (1620, 224, 224, 3)
+torch.Size([1620, 3, 224, 224])
+File 100960165
+Patches.shape: (1544, 224, 224, 3)
+torch.Size([1544, 3, 224, 224])
+File 100960088
+Patches.shape: (2201, 224, 224, 3)
+torch.Size([2201, 3, 224, 224])
+File 100960328
+	 Padding for shape: (222, 224, 3)
+Patches.shape: (1843, 224, 224, 3)
+torch.Size([1843, 3, 224, 224])
+File 100960200
+Patches.shape: (1422, 224, 224, 3)
+torch.Size([1422, 3, 224, 224])
+File 100960065
+Patches.shape: (1990, 224, 224, 3)
+torch.Size([1990, 3, 224, 224])
+File 100960316
+Patches.shape: (1995, 224, 224, 3)
+torch.Size([1995, 3, 224, 224])
+File 100960404
+Patches.shape: (912, 224, 224, 3)
+torch.Size([912, 3, 224, 224])
+Skipping 100960033 ....
+File 100960108
+Patches.shape: (712, 224, 224, 3)
+torch.Size([712, 3, 224, 224])
+File 100960388
+Patches.shape: (1177, 224, 224, 3)
+torch.Size([1177, 3, 224, 224])
+File 100960492
+Patches.shape: (403, 224, 224, 3)
+torch.Size([403, 3, 224, 224])
+File 100960376
+Patches.shape: (1358, 224, 224, 3)
+torch.Size([1358, 3, 224, 224])
+File 100960289
+Patches.shape: (2087, 224, 224, 3)
+torch.Size([2087, 3, 224, 224])
+File 100960057
+Patches.shape: (2157, 224, 224, 3)
+torch.Size([2157, 3, 224, 224])
+File 100960336
+Patches.shape: (1716, 224, 224, 3)
+torch.Size([1716, 3, 224, 224])
+File 100960260
+Patches.shape: (2266, 224, 224, 3)
+torch.Size([2266, 3, 224, 224])
+File 100960464
+Patches.shape: (424, 224, 224, 3)
+torch.Size([424, 3, 224, 224])
+File 100960120
+Patches.shape: (1354, 224, 224, 3)
+torch.Size([1354, 3, 224, 224])
+File 100960116
+Patches.shape: (1198, 224, 224, 3)
+torch.Size([1198, 3, 224, 224])
+File 100960460
+Patches.shape: (339, 224, 224, 3)
+torch.Size([339, 3, 224, 224])
+File 100960356
+Patches.shape: (1569, 224, 224, 3)
+torch.Size([1569, 3, 224, 224])
+File 100960413
+Patches.shape: (810, 224, 224, 3)
+torch.Size([810, 3, 224, 224])
+File 100960268
+Patches.shape: (2285, 224, 224, 3)
+torch.Size([2285, 3, 224, 224])
+File 100960516
+Patches.shape: (69, 224, 224, 3)
+torch.Size([69, 3, 224, 224])
+File 100966108
+Patches.shape: (1967, 224, 224, 3)
+torch.Size([1967, 3, 224, 224])
+File 100960309
+Patches.shape: (1987, 224, 224, 3)
+torch.Size([1987, 3, 224, 224])
+File 100960172
+Patches.shape: (1609, 224, 224, 3)
+torch.Size([1609, 3, 224, 224])
+File 100960344
+Patches.shape: (1635, 224, 224, 3)
+torch.Size([1635, 3, 224, 224])
+File 100960488
+Patches.shape: (324, 224, 224, 3)
+torch.Size([324, 3, 224, 224])
+File 100960236
+Patches.shape: (2346, 224, 224, 3)
+torch.Size([2346, 3, 224, 224])
+File 100960400
+Patches.shape: (910, 224, 224, 3)
+torch.Size([910, 3, 224, 224])
+File 100960092
+Patches.shape: (2322, 224, 224, 3)
+torch.Size([2322, 3, 224, 224])
+File 100960256
+Patches.shape: (2256, 224, 224, 3)
+torch.Size([2256, 3, 224, 224])
+File 100960284
+Patches.shape: (2193, 224, 224, 3)
+torch.Size([2193, 3, 224, 224])
+File 100960197
+Patches.shape: (1498, 224, 224, 3)
+torch.Size([1498, 3, 224, 224])
+File 100960156
+Patches.shape: (1509, 224, 224, 3)
+torch.Size([1509, 3, 224, 224])
+File 100960081
+Patches.shape: (2332, 224, 224, 3)
+torch.Size([2332, 3, 224, 224])
+File 100960273
+Patches.shape: (2194, 224, 224, 3)
+torch.Size([2194, 3, 224, 224])
+File 100960384
+Patches.shape: (1225, 224, 224, 3)
+torch.Size([1225, 3, 224, 224])
+File 100960112
+Patches.shape: (949, 224, 224, 3)
+torch.Size([949, 3, 224, 224])
+File 100960500
+Patches.shape: (346, 224, 224, 3)
+torch.Size([346, 3, 224, 224])
+File 100960240
+Patches.shape: (2343, 224, 224, 3)
+torch.Size([2343, 3, 224, 224])
+File 100960132
+Patches.shape: (1430, 224, 224, 3)
+torch.Size([1430, 3, 224, 224])
+File 100960104
+Patches.shape: (428, 224, 224, 3)
+torch.Size([428, 3, 224, 224])
+File 100960069
+Patches.shape: (2112, 224, 224, 3)
+torch.Size([2112, 3, 224, 224])
+File 100960248
+Patches.shape: (2215, 224, 224, 3)
+torch.Size([2215, 3, 224, 224])
+File 100960428
+Patches.shape: (556, 224, 224, 3)
+torch.Size([556, 3, 224, 224])
+File 100960044
+Patches.shape: (2096, 224, 224, 3)
+torch.Size([2096, 3, 224, 224])
+File 100960352
+Patches.shape: (1633, 224, 224, 3)
+torch.Size([1633, 3, 224, 224])
+File 100960484
+Patches.shape: (175, 224, 224, 3)
+torch.Size([175, 3, 224, 224])
+File 100960073
+Patches.shape: (2271, 224, 224, 3)
+torch.Size([2271, 3, 224, 224])
+File 100960440
+Patches.shape: (266, 224, 224, 3)
+torch.Size([266, 3, 224, 224])
+File 100960408
+Patches.shape: (814, 224, 224, 3)
+torch.Size([814, 3, 224, 224])
+File 100960504
+Patches.shape: (317, 224, 224, 3)
+torch.Size([317, 3, 224, 224])
+File 100960525
+Patches.shape: (2091, 224, 224, 3)
+torch.Size([2091, 3, 224, 224])
+File 100960348
+Patches.shape: (1671, 224, 224, 3)
+torch.Size([1671, 3, 224, 224])
+File 100960324
+Patches.shape: (1887, 224, 224, 3)
+torch.Size([1887, 3, 224, 224])
+File 100960380
+Patches.shape: (1282, 224, 224, 3)
+torch.Size([1282, 3, 224, 224])
+File 100960188
+Patches.shape: (1644, 224, 224, 3)
+torch.Size([1644, 3, 224, 224])
+File 100960392
+Patches.shape: (1107, 224, 224, 3)
+torch.Size([1107, 3, 224, 224])
+File 100960144
+Patches.shape: (1534, 224, 224, 3)
+torch.Size([1534, 3, 224, 224])
+File 100960452
+Patches.shape: (83, 224, 224, 3)
+torch.Size([83, 3, 224, 224])
+File 100960276
+Patches.shape: (2215, 224, 224, 3)
+torch.Size([2215, 3, 224, 224])
+File 100960176
+Patches.shape: (1657, 224, 224, 3)
+torch.Size([1657, 3, 224, 224])
+File 100960448
+Patches.shape: (39, 224, 224, 3)
+torch.Size([39, 3, 224, 224])
+File 100960181
+Patches.shape: (1633, 224, 224, 3)
+torch.Size([1633, 3, 224, 224])
+File 100960437
+Patches.shape: (399, 224, 224, 3)
+torch.Size([399, 3, 224, 224])
+File 100960360
+Patches.shape: (1559, 224, 224, 3)
+torch.Size([1559, 3, 224, 224])
+File 100960140
+	 Padding for shape: (224, 118, 3)
+Patches.shape: (1498, 224, 224, 3)
+torch.Size([1498, 3, 224, 224])
+File 100960101
+Patches.shape: (121, 224, 224, 3)
+torch.Size([121, 3, 224, 224])
+File 100960037
+Patches.shape: (2101, 224, 224, 3)
+torch.Size([2101, 3, 224, 224])
+File 100960221
+Patches.shape: (1715, 224, 224, 3)
+torch.Size([1715, 3, 224, 224])
+File 100960204
+Patches.shape: (1319, 224, 224, 3)
+torch.Size([1319, 3, 224, 224])
+File 100960432
+Patches.shape: (498, 224, 224, 3)
+torch.Size([498, 3, 224, 224])
+File 100960293
+Patches.shape: (2108, 224, 224, 3)
+torch.Size([2108, 3, 224, 224])
+File 100960184
+Patches.shape: (1596, 224, 224, 3)
+torch.Size([1596, 3, 224, 224])
+File 100960416
+Patches.shape: (715, 224, 224, 3)
+torch.Size([715, 3, 224, 224])
+File 100960232
+Patches.shape: (2292, 224, 224, 3)
+torch.Size([2292, 3, 224, 224])
+File 100960340
+Patches.shape: (1685, 224, 224, 3)
+torch.Size([1685, 3, 224, 224])
+File 100960520
+Patches.shape: (2, 224, 224, 3)
+torch.Size([2, 3, 224, 224])
+File 100960084
+Patches.shape: (2286, 224, 224, 3)
+torch.Size([2286, 3, 224, 224])
+File 100960208
+Patches.shape: (1406, 224, 224, 3)
+torch.Size([1406, 3, 224, 224])
+File 100960041
+Patches.shape: (3815, 224, 224, 3)
+torch.Size([3815, 3, 224, 224])
+File 100966101
+Patches.shape: (1865, 224, 224, 3)
+torch.Size([1865, 3, 224, 224])
+File 100960444
+Patches.shape: (135, 224, 224, 3)
+torch.Size([135, 3, 224, 224])
+File 100960216
+Patches.shape: (1444, 224, 224, 3)
+torch.Size([1444, 3, 224, 224])
+File 100960365
+Patches.shape: (1507, 224, 224, 3)
+torch.Size([1507, 3, 224, 224])
+File 100960160
+Patches.shape: (1484, 224, 224, 3)
+torch.Size([1484, 3, 224, 224])
+File 100966113
+Patches.shape: (2021, 224, 224, 3)
+torch.Size([2021, 3, 224, 224])
+File 100960480
+Patches.shape: (50, 224, 224, 3)
+torch.Size([50, 3, 224, 224])
+File 100960061
+Patches.shape: (2061, 224, 224, 3)
+torch.Size([2061, 3, 224, 224])
+File 100960136
+Patches.shape: (1544, 224, 224, 3)
+torch.Size([1544, 3, 224, 224])
