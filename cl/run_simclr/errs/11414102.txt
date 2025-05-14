@@ -1,0 +1,110 @@
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_vx=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for this output (/p/software/juwelsbooster/lmod/8.7.49/init/bash)
+Shell debugging restarted
++ unset __lmod_vx
++ module purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+  [01;33mThis stage is deprecated. Please consider moving to a new stage (2025
+or newer)[0m
+
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) Stages/2023
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load Stages/2023
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+  [01;33mThis stage is deprecated. Please consider moving to a new stage (2025
+or newer)[0m
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load GCC
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load Python
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ source /p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/p/software/juwelsbooster/stages/2023/software/Python/3.10.4-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/OpenSSL/1.1/bin:/p/software/juwelsbooster/stages/2023/software/XZ/5.2.5-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/SQLite/3.38.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/Tcl/8.6.12-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/ncurses/6.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/bzip2/1.0.8-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/binutils/2.38-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/GCCcore/11.3.0/bin:/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/jsc/bin:/usr/local/jsc/bin:/opt/parastation/bin:/p/software/juwelsbooster/bin
+++ PATH=/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/bin:/p/software/juwelsbooster/stages/2023/software/Python/3.10.4-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/OpenSSL/1.1/bin:/p/software/juwelsbooster/stages/2023/software/XZ/5.2.5-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/SQLite/3.38.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/Tcl/8.6.12-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/ncurses/6.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/bzip2/1.0.8-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/binutils/2.38-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/GCCcore/11.3.0/bin:/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/jsc/bin:/usr/local/jsc/bin:/opt/parastation/bin:/p/software/juwelsbooster/bin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(contrastive_learn) '
+++ export PS1
+++ VIRTUAL_ENV_PROMPT='(contrastive_learn) '
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
++ PYTHONPATH=/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/:/p/software/juwelsbooster/stages/2023/software/Python/3.10.4-GCCcore-11.3.0/easybuild/python
++ srun python run_simclr.py -w third_run -s /p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad -t /p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad --target_key uni_pca_95 --lr 2e-4 --dropout 0.3 --mlp_layers 512,480 --max_epochs 60 -p 60 -n 600 --weight_decay 0.001
+[rank: 0] Global seed set to 42
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/torch/utils/data/dataloader.py:624: UserWarning: This DataLoader will create 96 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name        | Type        | Params
+--------------------------------------------
+0 | histo_model | SimpleModel | 435 K 
+1 | st_model    | SimpleModel | 272 K 
+--------------------------------------------
+707 K     Trainable params
+0         Non-trainable params
+707 K     Total params
+2.830     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+srun: Job step aborted: Waiting up to 6 seconds for job step to finish.
+error: *** job 11414102 CANCELLED DUE TO TIME LIMIT ***
+error: *** step 11414102.0 CANCELLED DUE TO TIME LIMIT ***
+bypassing sigterm
+srun: error: jwb0832: task 0: Terminated

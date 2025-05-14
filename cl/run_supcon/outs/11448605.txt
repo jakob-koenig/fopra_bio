@@ -1,0 +1,25 @@
+ST shape: (36832, 50), Histo shape: (96517, 368)
+samples lost from class rebalancing: 9
+ST shape: (7665, 50), Histo shape: (36112, 368)
+samples lost from class rebalancing: 10
+New trial with params: 
+batchnorm=True, dropout=True, hd1=829, hd2=240, ld=203, lr=0.0006173770394704579, ph=True, wd=2.1751953118777657e-05
+NUM_WORKERS: 1
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data

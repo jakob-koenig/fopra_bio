@@ -1,0 +1,414 @@
+ST shape: (36832, 50), Histo shape: (96517, 368)
+samples lost from class rebalancing: 9
+ST shape: (7665, 50), Histo shape: (36112, 368)
+samples lost from class rebalancing: 10
+New trial with params: 
+batchnorm=True, dropout=True, hd1=829, hd2=240, ld=203, lr=0.0006173770394704579, ph=True, wd=2.1751953118777657e-05
+NUM_WORKERS: 1
+Val acc: -0.6896145343780518
+New trial with params: 
+batchnorm=False, dropout=True, hd1=201, hd2=689, ld=30, lr=0.0014655354118727714, ph=False, wd=0.0006541210527692739
+NUM_WORKERS: 1
+Val acc: -0.7018049955368042
+New trial with params: 
+batchnorm=True, dropout=True, hd1=651, hd2=71, ld=22, lr=0.000375252833957398, ph=False, wd=1.5833718339012065e-05
+NUM_WORKERS: 1
+Val acc: -0.6670811176300049
+New trial with params: 
+batchnorm=True, dropout=False, hd1=151, hd2=658, ld=108, lr=0.008906204386161689, ph=False, wd=2.5135566617708295e-05
+NUM_WORKERS: 1
+Val acc: -0.9470365643501282
+New trial with params: 
+batchnorm=False, dropout=True, hd1=77, hd2=969, ld=151, lr=0.000143301094556357, ph=True, wd=1.1166029133981342e-06
+NUM_WORKERS: 1
+Val acc: -0.6921645402908325
+New trial with params: 
+batchnorm=False, dropout=False, hd1=1024, hd2=64, ld=256, lr=1e-05, ph=True, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9705862402915955
+New trial with params: 
+batchnorm=False, dropout=False, hd1=992, hd2=881, ld=24, lr=1.4274936189606853e-05, ph=False, wd=1.0836857078068309e-06
+NUM_WORKERS: 1
+Val acc: -0.9685490131378174
+New trial with params: 
+batchnorm=False, dropout=False, hd1=1024, hd2=64, ld=256, lr=0.01, ph=True, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9376708269119263
+New trial with params: 
+batchnorm=True, dropout=False, hd1=64, hd2=1024, ld=256, lr=1e-05, ph=True, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9711035490036011
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=64, ld=16, lr=1e-05, ph=False, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9675939083099365
+New trial with params: 
+batchnorm=False, dropout=False, hd1=64, hd2=1024, ld=256, lr=1e-05, ph=True, wd=2.1154054059328507e-05
+NUM_WORKERS: 1
+Val acc: -0.9695954918861389
+New trial with params: 
+batchnorm=True, dropout=False, hd1=64, hd2=1024, ld=16, lr=0.00016066340517276049, ph=True, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9670851826667786
+New trial with params: 
+batchnorm=False, dropout=False, hd1=64, hd2=64, ld=256, lr=7.190414869379408e-05, ph=False, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9682942032814026
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1008, hd2=1020, ld=237, lr=0.00046306749755432777, ph=False, wd=1.0806481328778317e-06
+NUM_WORKERS: 1
+Val acc: -0.9520315527915955
+New trial with params: 
+batchnorm=False, dropout=False, hd1=64, hd2=407, ld=16, lr=1e-05, ph=False, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9647493958473206
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=64, ld=16, lr=4.399319985655627e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9651987552642822
+New trial with params: 
+batchnorm=False, dropout=False, hd1=1024, hd2=1024, ld=16, lr=1e-05, ph=True, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9681951403617859
+New trial with params: 
+batchnorm=True, dropout=False, hd1=64, hd2=64, ld=256, lr=1e-05, ph=False, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.963097333908081
+New trial with params: 
+batchnorm=False, dropout=False, hd1=64, hd2=64, ld=16, lr=1e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9619858860969543
+New trial with params: 
+batchnorm=False, dropout=False, hd1=74, hd2=728, ld=238, lr=0.0005063435209205432, ph=True, wd=7.003308241068209e-06
+NUM_WORKERS: 1
+Val acc: -0.9556836485862732
+New trial with params: 
+batchnorm=False, dropout=False, hd1=1018, hd2=1021, ld=253, lr=3.021879099211607e-05, ph=True, wd=5.745676324955371e-06
+NUM_WORKERS: 1
+Val acc: -0.9701175689697266
+New trial with params: 
+batchnorm=True, dropout=False, hd1=64, hd2=1024, ld=256, lr=4.400347298901376e-05, ph=True, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9721065759658813
+New trial with params: 
+batchnorm=False, dropout=False, hd1=473, hd2=64, ld=256, lr=2.0643672772004395e-05, ph=True, wd=0.0004267589046620753
+NUM_WORKERS: 1
+Val acc: -0.9699506163597107
+New trial with params: 
+batchnorm=False, dropout=False, hd1=1024, hd2=1024, ld=167, lr=2.480647940449317e-05, ph=True, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9691967964172363
+New trial with params: 
+batchnorm=True, dropout=False, hd1=815, hd2=1024, ld=256, lr=1e-05, ph=False, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9742709994316101
+New trial with params: 
+batchnorm=False, dropout=False, hd1=78, hd2=116, ld=18, lr=0.0016187916839072766, ph=False, wd=0.00013556719193578626
+NUM_WORKERS: 1
+Val acc: -0.9529065489768982
+New trial with params: 
+batchnorm=True, dropout=False, hd1=530, hd2=1024, ld=256, lr=1.9350704645922713e-05, ph=False, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9749791026115417
+New trial with params: 
+batchnorm=False, dropout=False, hd1=1018, hd2=1002, ld=46, lr=0.0069351499539246015, ph=True, wd=3.863440325146084e-05
+NUM_WORKERS: 1
+Val acc: -0.9448829293251038
+New trial with params: 
+batchnorm=True, dropout=False, hd1=544, hd2=1024, ld=256, lr=1.7307332015349193e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9748419523239136
+New trial with params: 
+batchnorm=True, dropout=False, hd1=451, hd2=1024, ld=256, lr=2.117900329836096e-05, ph=False, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9735415577888489
+New trial with params: 
+batchnorm=True, dropout=False, hd1=70, hd2=135, ld=18, lr=3.446185648130221e-05, ph=True, wd=0.0004606892827525337
+NUM_WORKERS: 1
+Val acc: -0.9694623351097107
+New trial with params: 
+batchnorm=True, dropout=False, hd1=693, hd2=1024, ld=256, lr=1.0694958250406902e-05, ph=True, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.974609911441803
+New trial with params: 
+batchnorm=True, dropout=False, hd1=630, hd2=199, ld=239, lr=0.0001250836433950737, ph=True, wd=9.912688277093353e-05
+NUM_WORKERS: 1
+Val acc: -0.9698314070701599
+New trial with params: 
+batchnorm=True, dropout=False, hd1=681, hd2=747, ld=256, lr=1.9213469900954123e-05, ph=True, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.973881721496582
+New trial with params: 
+batchnorm=True, dropout=False, hd1=697, hd2=1024, ld=256, lr=1e-05, ph=False, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.974897027015686
+New trial with params: 
+batchnorm=True, dropout=False, hd1=667, hd2=1024, ld=256, lr=1.4583620557388796e-05, ph=False, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.973737359046936
+New trial with params: 
+batchnorm=False, dropout=False, hd1=448, hd2=689, ld=43, lr=6.560546256160395e-05, ph=False, wd=0.0006014445499876981
+NUM_WORKERS: 1
+Val acc: -0.9662871360778809
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=1024, ld=256, lr=1e-05, ph=False, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9740301966667175
+New trial with params: 
+batchnorm=True, dropout=False, hd1=68, hd2=962, ld=35, lr=1.8616707845325353e-05, ph=False, wd=1.4547145846900815e-06
+NUM_WORKERS: 1
+Val acc: -0.9689653515815735
+New trial with params: 
+batchnorm=True, dropout=False, hd1=958, hd2=145, ld=22, lr=0.009081101190764275, ph=True, wd=0.00015664998886879666
+NUM_WORKERS: 1
+Val acc: -0.9413026571273804
+New trial with params: 
+batchnorm=True, dropout=False, hd1=70, hd2=185, ld=24, lr=0.00014332993975170786, ph=True, wd=4.458952749881268e-06
+NUM_WORKERS: 1
+Val acc: -0.967876136302948
+New trial with params: 
+batchnorm=True, dropout=False, hd1=992, hd2=65, ld=26, lr=0.00034117535776072126, ph=True, wd=0.0001757503233371097
+NUM_WORKERS: 1
+Val acc: -0.9550480842590332
+New trial with params: 
+batchnorm=True, dropout=False, hd1=846, hd2=1024, ld=256, lr=1e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9744223952293396
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1001, hd2=310, ld=229, lr=2.6506786042070355e-05, ph=False, wd=0.0005544649956392054
+NUM_WORKERS: 1
+Val acc: -0.9743801951408386
+New trial with params: 
+batchnorm=True, dropout=False, hd1=81, hd2=103, ld=218, lr=0.009948101254702617, ph=True, wd=7.281813753491829e-05
+NUM_WORKERS: 1
+Val acc: -0.9529784321784973
+New trial with params: 
+batchnorm=False, dropout=False, hd1=87, hd2=1019, ld=33, lr=0.008558169386888517, ph=True, wd=5.979121152980781e-06
+NUM_WORKERS: 1
+Val acc: -0.9420211911201477
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=551, ld=256, lr=1.2720500684189995e-05, ph=True, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.974198579788208
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=64, ld=256, lr=2.5624653492543777e-05, ph=False, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9727637767791748
+New trial with params: 
+batchnorm=True, dropout=False, hd1=70, hd2=78, ld=213, lr=0.0008328897269165959, ph=False, wd=4.318712364071888e-05
+NUM_WORKERS: 1
+Val acc: -0.9625354409217834
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1015, hd2=1008, ld=56, lr=8.767577141427796e-05, ph=False, wd=5.806819768089573e-06
+NUM_WORKERS: 1
+Val acc: -0.9645345211029053
+New trial with params: 
+batchnorm=True, dropout=False, hd1=796, hd2=424, ld=256, lr=2.1927330207768865e-05, ph=False, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9741122722625732
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=617, ld=256, lr=1e-05, ph=False, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9748492240905762
+New trial with params: 
+batchnorm=True, dropout=False, hd1=102, hd2=547, ld=198, lr=4.571342320178744e-05, ph=True, wd=2.028934058247708e-06
+NUM_WORKERS: 1
+Val acc: -0.9732192754745483
+New trial with params: 
+batchnorm=True, dropout=False, hd1=804, hd2=983, ld=248, lr=0.00892310069453478, ph=True, wd=9.685521733991486e-06
+NUM_WORKERS: 1
+Val acc: -0.9410719275474548
+New trial with params: 
+batchnorm=True, dropout=False, hd1=819, hd2=543, ld=256, lr=1.869974479689228e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9750885963439941
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=539, ld=256, lr=1.5374282808514517e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9745591282844543
+New trial with params: 
+batchnorm=True, dropout=False, hd1=749, hd2=534, ld=131, lr=1.037945135780919e-05, ph=True, wd=7.74426843720108e-06
+NUM_WORKERS: 1
+Val acc: -0.9736336469650269
+New trial with params: 
+batchnorm=False, dropout=True, hd1=987, hd2=996, ld=32, lr=1.1327579411903602e-05, ph=True, wd=2.31349056928476e-06
+NUM_WORKERS: 1
+Val acc: -0.6998814940452576
+New trial with params: 
+batchnorm=True, dropout=False, hd1=706, hd2=456, ld=256, lr=2.308721104665128e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9736283421516418
+New trial with params: 
+batchnorm=True, dropout=False, hd1=232, hd2=1017, ld=26, lr=0.0010473970432301296, ph=False, wd=0.000866627514603641
+NUM_WORKERS: 1
+Val acc: -0.9544379115104675
+New trial with params: 
+batchnorm=True, dropout=False, hd1=447, hd2=70, ld=86, lr=3.435325652524647e-05, ph=False, wd=1.0596599837050552e-06
+NUM_WORKERS: 1
+Val acc: -0.9720218181610107
+New trial with params: 
+batchnorm=True, dropout=False, hd1=576, hd2=1002, ld=29, lr=1.0737378105377034e-05, ph=False, wd=0.00023073257446438864
+NUM_WORKERS: 1
+Val acc: -0.971177339553833
+New trial with params: 
+batchnorm=False, dropout=False, hd1=987, hd2=191, ld=229, lr=0.00010653039626787459, ph=False, wd=5.044033042689273e-05
+NUM_WORKERS: 1
+Val acc: -0.9654675722122192
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=671, ld=203, lr=1e-05, ph=False, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9747850298881531
+New trial with params: 
+batchnorm=True, dropout=False, hd1=825, hd2=690, ld=209, lr=1.3084313905503647e-05, ph=False, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9740172624588013
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=713, ld=256, lr=1e-05, ph=True, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9748608469963074
+New trial with params: 
+batchnorm=True, dropout=True, hd1=187, hd2=90, ld=233, lr=0.008169891566654732, ph=True, wd=4.809562678069169e-05
+NUM_WORKERS: 1
+Val acc: -0.675805926322937
+New trial with params: 
+batchnorm=True, dropout=True, hd1=983, hd2=1002, ld=96, lr=0.007201858191425684, ph=True, wd=0.00020015481607272456
+NUM_WORKERS: 1
+Val acc: -0.7230318188667297
+New trial with params: 
+batchnorm=True, dropout=False, hd1=864, hd2=86, ld=250, lr=0.0012821638558983158, ph=True, wd=1.9677110326621718e-05
+NUM_WORKERS: 1
+Val acc: -0.9470974206924438
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=739, ld=256, lr=1e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9753409028053284
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=656, ld=256, lr=1e-05, ph=False, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9746676087379456
+New trial with params: 
+batchnorm=True, dropout=False, hd1=514, hd2=1016, ld=243, lr=7.663892653893128e-05, ph=False, wd=0.00018999774040935082
+NUM_WORKERS: 1
+Val acc: -0.9704388976097107
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=755, ld=217, lr=1e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.974608302116394
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=745, ld=256, lr=1e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9749490022659302
+New trial with params: 
+batchnorm=True, dropout=False, hd1=851, hd2=789, ld=256, lr=1e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9746049046516418
+New trial with params: 
+batchnorm=False, dropout=False, hd1=100, hd2=1001, ld=230, lr=0.002518144476939042, ph=False, wd=0.0007554853185831625
+NUM_WORKERS: 1
+Val acc: -0.9383681416511536
+New trial with params: 
+batchnorm=True, dropout=False, hd1=72, hd2=517, ld=168, lr=0.00012972405713051823, ph=False, wd=0.00019912040600061283
+NUM_WORKERS: 1
+Val acc: -0.9694766998291016
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=647, ld=256, lr=1e-05, ph=False, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9739235639572144
+New trial with params: 
+batchnorm=True, dropout=False, hd1=711, hd2=1024, ld=212, lr=1e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9747360944747925
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=1024, ld=256, lr=1e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9738250970840454
+New trial with params: 
+batchnorm=True, dropout=False, hd1=813, hd2=829, ld=217, lr=1e-05, ph=True, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9746811985969543
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=549, ld=218, lr=1e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9754763245582581
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=496, ld=211, lr=1e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9741776585578918
+New trial with params: 
+batchnorm=True, dropout=False, hd1=660, hd2=1024, ld=217, lr=1e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9738174676895142
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=600, ld=256, lr=1e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9742496013641357
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=668, ld=207, lr=1e-05, ph=True, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9742114543914795
+New trial with params: 
+batchnorm=True, dropout=False, hd1=612, hd2=427, ld=200, lr=3.010384591686623e-05, ph=True, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9743905663490295
+New trial with params: 
+batchnorm=True, dropout=False, hd1=936, hd2=740, ld=256, lr=1e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9745593070983887
+New trial with params: 
+batchnorm=True, dropout=True, hd1=64, hd2=85, ld=255, lr=1.6826689341000136e-05, ph=False, wd=3.2392275136117158e-06
+NUM_WORKERS: 1
+Val acc: -0.665591299533844
+New trial with params: 
+batchnorm=True, dropout=False, hd1=927, hd2=486, ld=211, lr=1.6790406443570667e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.975205659866333
+New trial with params: 
+batchnorm=True, dropout=False, hd1=900, hd2=439, ld=202, lr=1.8219180134664132e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9730237126350403
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=686, ld=256, lr=1e-05, ph=False, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9745410680770874
+New trial with params: 
+batchnorm=True, dropout=False, hd1=860, hd2=794, ld=256, lr=1e-05, ph=True, wd=0.001
+NUM_WORKERS: 1
+Val acc: -0.9741737842559814
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=712, ld=218, lr=1e-05, ph=False, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9745954871177673
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=647, ld=256, lr=1e-05, ph=False, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9744871258735657
+New trial with params: 
+batchnorm=True, dropout=False, hd1=833, hd2=793, ld=256, lr=1.3903158839574442e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9757307767868042
+New trial with params: 
+batchnorm=True, dropout=False, hd1=797, hd2=805, ld=256, lr=1.5011927948408239e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9737346172332764
+New trial with params: 
+batchnorm=True, dropout=False, hd1=885, hd2=777, ld=223, lr=1e-05, ph=False, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9740802645683289
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=721, ld=256, lr=1e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.9757329821586609
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=733, ld=256, lr=1e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Val acc: -0.975129246711731
+Best score:  0.9757329821586609
+Best hyperparameters:
+hd1: 1024
+hd2: 721
+ld: 256
+lr: 1e-05
+wd: 1e-06
+dropout: False
+ph: True
+batchnorm: True

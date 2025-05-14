@@ -1,0 +1,126 @@
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_vx=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for this output (/p/software/juwelsbooster/lmod/8.7.49/init/bash)
+Shell debugging restarted
++ unset __lmod_vx
++ module purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+  [01;33mThis stage is deprecated. Please consider moving to a new stage (2025
+or newer)[0m
+
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) Stages/2023
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load Stages/2023
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+  [01;33mThis stage is deprecated. Please consider moving to a new stage (2025
+or newer)[0m
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load GCC
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load Python
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ source /p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/p/software/juwelsbooster/stages/2023/software/Python/3.10.4-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/OpenSSL/1.1/bin:/p/software/juwelsbooster/stages/2023/software/XZ/5.2.5-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/SQLite/3.38.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/Tcl/8.6.12-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/ncurses/6.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/bzip2/1.0.8-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/binutils/2.38-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/GCCcore/11.3.0/bin:/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/jsc/bin:/usr/local/jsc/bin:/opt/parastation/bin:/p/software/juwelsbooster/bin
+++ PATH=/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/bin:/p/software/juwelsbooster/stages/2023/software/Python/3.10.4-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/OpenSSL/1.1/bin:/p/software/juwelsbooster/stages/2023/software/XZ/5.2.5-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/SQLite/3.38.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/Tcl/8.6.12-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/ncurses/6.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/bzip2/1.0.8-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/binutils/2.38-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/GCCcore/11.3.0/bin:/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/jsc/bin:/usr/local/jsc/bin:/opt/parastation/bin:/p/software/juwelsbooster/bin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(contrastive_learn) '
+++ export PS1
+++ VIRTUAL_ENV_PROMPT='(contrastive_learn) '
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
++ PYTHONPATH=/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/:/p/software/juwelsbooster/stages/2023/software/Python/3.10.4-GCCcore-11.3.0/easybuild/python
++ srun python run_simclr.py -w second_run -s /p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad -t /p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad --target_key uni_pca_95 --lr 5e-4 --batchnorm --dropout 0.2 --mlp_layers 1024,512,64 --max_epochs 12 -p 5 -n 384
+[rank: 0] Global seed set to 42
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/torch/utils/data/dataloader.py:624: UserWarning: This DataLoader will create 96 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name        | Type        | Params
+--------------------------------------------
+0 | histo_model | SimpleModel | 938 K 
+1 | st_model    | SimpleModel | 612 K 
+--------------------------------------------
+1.6 M     Trainable params
+0         Non-trainable params
+1.6 M     Total params
+6.206     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=12` reached.
+Traceback (most recent call last):
+  File "/p/project1/hai_fzj_bda/koenig8/cl/run_simclr/run_simclr.py", line 142, in <module>
+    model = train_simclr(
+  File "/p/project1/hai_fzj_bda/koenig8/cl/simple_model/model.py", line 256, in train_simclr
+    model = SimCLR.load_from_checkpoint(trainer.checkpoint_callback.best_model_path) # Load best checkpoint after training
+  File "/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/pytorch_lightning/core/saving.py", line 139, in load_from_checkpoint
+    return _load_from_checkpoint(  # type: ignore[return-value]
+  File "/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/pytorch_lightning/core/saving.py", line 160, in _load_from_checkpoint
+    checkpoint = pl_load(checkpoint_path, map_location=map_location)
+  File "/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/lightning_fabric/utilities/cloud_io.py", line 51, in _load
+    return torch.load(f, map_location=map_location)  # type: ignore[arg-type]
+  File "/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/torch/serialization.py", line 1470, in load
+    raise pickle.UnpicklingError(_get_wo_message(str(e))) from None
+_pickle.UnpicklingError: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL simple_model.dataloader.PairedContrastiveDataset was not an allowed global by default. Please use `torch.serialization.add_safe_globals([PairedContrastiveDataset])` or the `torch.serialization.safe_globals([PairedContrastiveDataset])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+srun: error: jwb0086: task 0: Exited with exit code 1

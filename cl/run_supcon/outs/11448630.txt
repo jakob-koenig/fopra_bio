@@ -1,0 +1,183 @@
+ST shape: (36832, 50), Histo shape: (96517, 368)
+samples lost from class rebalancing: 9
+ST shape: (7665, 50), Histo shape: (36112, 368)
+samples lost from class rebalancing: 10
+New trial with params: 
+batchnorm=True, dropout=True, hd1=829, hd2=240, ld=203, lr=0.0006173770394704579, ph=True, wd=2.1751953118777657e-05
+NUM_WORKERS: 1
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+New trial with params: 
+batchnorm=False, dropout=True, hd1=201, hd2=689, ld=30, lr=0.0014655354118727714, ph=False, wd=0.0006541210527692739
+NUM_WORKERS: 1
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+New trial with params: 
+batchnorm=True, dropout=True, hd1=651, hd2=71, ld=22, lr=0.000375252833957398, ph=False, wd=1.5833718339012065e-05
+NUM_WORKERS: 1
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+New trial with params: 
+batchnorm=True, dropout=False, hd1=151, hd2=658, ld=108, lr=0.008906204386161689, ph=False, wd=2.5135566617708295e-05
+NUM_WORKERS: 1
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+New trial with params: 
+batchnorm=False, dropout=True, hd1=77, hd2=969, ld=151, lr=0.000143301094556357, ph=True, wd=1.1166029133981342e-06
+NUM_WORKERS: 1
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+New trial with params: 
+batchnorm=False, dropout=False, hd1=1024, hd2=64, ld=256, lr=1e-05, ph=True, wd=0.001
+NUM_WORKERS: 1
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+New trial with params: 
+batchnorm=False, dropout=False, hd1=1024, hd2=1024, ld=16, lr=1e-05, ph=True, wd=1e-06
+NUM_WORKERS: 1
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+New trial with params: 
+batchnorm=False, dropout=False, hd1=64, hd2=1024, ld=16, lr=0.01, ph=False, wd=1e-06
+NUM_WORKERS: 1
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+Shuffled data
+New trial with params: 
+batchnorm=True, dropout=False, hd1=1024, hd2=1024, ld=16, lr=1e-05, ph=True, wd=0.001
+NUM_WORKERS: 1
+Shuffled data
+Shuffled data
+Shuffled data

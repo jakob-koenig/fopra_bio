@@ -1,0 +1,112 @@
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_vx=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for this output (/p/software/juwelsbooster/lmod/8.7.49/init/bash)
+Shell debugging restarted
++ unset __lmod_vx
++ module purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+  [01;33mThis stage is deprecated. Please consider moving to a new stage (2025
+or newer)[0m
+
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) Stages/2023
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load Stages/2023
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+  [01;33mThis stage is deprecated. Please consider moving to a new stage (2025
+or newer)[0m
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load GCC
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load Python
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ source /p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/p/software/juwelsbooster/stages/2023/software/Python/3.10.4-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/OpenSSL/1.1/bin:/p/software/juwelsbooster/stages/2023/software/XZ/5.2.5-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/SQLite/3.38.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/Tcl/8.6.12-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/ncurses/6.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/bzip2/1.0.8-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/binutils/2.38-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/GCCcore/11.3.0/bin:/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/jsc/bin:/usr/local/jsc/bin:/opt/parastation/bin:/p/software/juwelsbooster/bin
+++ PATH=/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/bin:/p/software/juwelsbooster/stages/2023/software/Python/3.10.4-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/OpenSSL/1.1/bin:/p/software/juwelsbooster/stages/2023/software/XZ/5.2.5-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/SQLite/3.38.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/Tcl/8.6.12-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/ncurses/6.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/bzip2/1.0.8-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/binutils/2.38-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/GCCcore/11.3.0/bin:/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/jsc/bin:/usr/local/jsc/bin:/opt/parastation/bin:/p/software/juwelsbooster/bin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(contrastive_learn) '
+++ export PS1
+++ VIRTUAL_ENV_PROMPT='(contrastive_learn) '
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
++ PYTHONPATH=/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/:/p/software/juwelsbooster/stages/2023/software/Python/3.10.4-GCCcore-11.3.0/easybuild/python
++ srun python run_simclr.py -w third_run -s /p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad -t /p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad --target_key uni_pca_95 --lr 9e-5 --batchnorm --dropout 0.3 --mlp_layers 512,512,64 --max_epochs 100 -p 100 -n 400
+[rank: 0] Global seed set to 42
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/torch/utils/data/dataloader.py:624: UserWarning: This DataLoader will create 96 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/p/project1/hai_fzj_bda/koenig8/cl/run_simclr/run_simclr.py", line 147, in <module>
+    model = train_simclr(
+  File "/p/project1/hai_fzj_bda/koenig8/cl/simple_model/model.py", line 276, in train_simclr
+    trainer.fit(model, train_loader, val_loader)
+  File "/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 608, in fit
+    call._call_and_handle_interrupt(
+  File "/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py", line 38, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 650, in _fit_impl
+    self._run(model, ckpt_path=self.ckpt_path)
+  File "/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1038, in _run
+    verify_loop_configurations(self)
+  File "/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/pytorch_lightning/trainer/configuration_validator.py", line 55, in verify_loop_configurations
+    _check_on_epoch_start_end(model)
+  File "/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/pytorch_lightning/trainer/configuration_validator.py", line 196, in _check_on_epoch_start_end
+    raise RuntimeError(
+RuntimeError: The `LightningModule.on_epoch_end` hook was removed in v1.8. Please use `LightningModule.on_<train/validation/test>_epoch_end` instead.
+srun: error: jwb0089: task 0: Exited with exit code 1

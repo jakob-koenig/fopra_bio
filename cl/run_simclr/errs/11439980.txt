@@ -1,0 +1,148 @@
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_vx=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for this output (/p/software/juwelsbooster/lmod/8.7.49/init/bash)
+Shell debugging restarted
++ unset __lmod_vx
++ module purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) Stages/2025
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load Stages/2023
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+  [01;33mThis stage is deprecated. Please consider moving to a new stage (2025
+or newer)[0m
+
+
+The following have been reloaded with a version change:
+  1) Stages/2025 => Stages/2023
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load GCC
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load Python
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ source /p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/p/software/juwelsbooster/stages/2023/software/Python/3.10.4-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/OpenSSL/1.1/bin:/p/software/juwelsbooster/stages/2023/software/XZ/5.2.5-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/SQLite/3.38.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/Tcl/8.6.12-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/ncurses/6.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/bzip2/1.0.8-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/binutils/2.38-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/GCCcore/11.3.0/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/jsc/bin:/usr/local/jsc/bin:/opt/parastation/bin:/p/software/juwelsbooster/bin
+++ PATH=/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/bin:/p/software/juwelsbooster/stages/2023/software/Python/3.10.4-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/OpenSSL/1.1/bin:/p/software/juwelsbooster/stages/2023/software/XZ/5.2.5-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/SQLite/3.38.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/Tcl/8.6.12-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/ncurses/6.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/bzip2/1.0.8-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/binutils/2.38-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/GCCcore/11.3.0/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/jsc/bin:/usr/local/jsc/bin:/opt/parastation/bin:/p/software/juwelsbooster/bin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(contrastive_learn) '
+++ export PS1
+++ VIRTUAL_ENV_PROMPT='(contrastive_learn) '
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
++ PYTHONPATH=/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/:/p/software/juwelsbooster/stages/2023/software/Python/3.10.4-GCCcore-11.3.0/easybuild/python
++ srun python run_simclr.py -w sup_con_one -s /p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad -t /p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad --target_key uni_pca_95 --lr 2e-4 --dropout 0.2 --mlp_layers 700,700,64 --max_epochs 20 -p 256 -n 1024 --weight_decay 0.001 --projection_head
+[rank: 0] Global seed set to 42
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/torch/utils/data/dataloader.py:624: UserWarning: This DataLoader will create 96 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(
+Missing logger folder: sup_con_one/logs/SimCLR
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name        | Type        | Params
+--------------------------------------------
+0 | histo_model | SimpleModel | 793 K 
+1 | st_model    | SimpleModel | 571 K 
+--------------------------------------------
+1.4 M     Trainable params
+0         Non-trainable params
+1.4 M     Total params
+5.461     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+Metric val_loss improved. New best score: 481.465
+Monitored metric val_loss did not improve in the last 10 records. Best score: 481.465. Signaling Trainer to stop.
+/p/project1/hai_fzj_bda/koenig8/cl/run_simclr/run_simclr.py:191: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  train_embeddings = torch.vstack([histo_embeddings, st_embeddings[adata_st.obs.train_set]])
+/p/project1/hai_fzj_bda/koenig8/cl/run_simclr/run_simclr.py:196: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  val_embeddings = st_embeddings[adata_st.obs.val_set]
+/p/project1/hai_fzj_bda/koenig8/cl/simple_model/dataloader.py:222: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  self.embeddings = torch.tensor(embeddings, dtype = torch.float32)
+[rank: 0] Global seed set to 42
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/contrastive_learn/lib/python3.10/site-packages/torch/utils/data/dataloader.py:624: UserWarning: This DataLoader will create 96 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(
+Missing logger folder: sup_con_one/logs/Coordinate Regressor
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name  | Type        | Params
+--------------------------------------
+0 | model | SimpleModel | 592 K 
+--------------------------------------
+592 K     Trainable params
+0         Non-trainable params
+592 K     Total params
+2.372     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+Metric val_r2 improved. New best score: -21.876
+Metric val_r2 improved by 2.040 >= min_delta = 0.0. New best score: -19.835
+Metric val_r2 improved by 4.404 >= min_delta = 0.0. New best score: -15.432
+Metric val_r2 improved by 6.465 >= min_delta = 0.0. New best score: -8.966
+Metric val_r2 improved by 1.209 >= min_delta = 0.0. New best score: -7.757
+Metric val_r2 improved by 0.542 >= min_delta = 0.0. New best score: -7.215
+Metric val_r2 improved by 1.687 >= min_delta = 0.0. New best score: -5.528
+Metric val_r2 improved by 0.081 >= min_delta = 0.0. New best score: -5.446
+Metric val_r2 improved by 0.962 >= min_delta = 0.0. New best score: -4.484
+Metric val_r2 improved by 0.245 >= min_delta = 0.0. New best score: -4.240
+Metric val_r2 improved by 0.838 >= min_delta = 0.0. New best score: -3.402
+Metric val_r2 improved by 0.127 >= min_delta = 0.0. New best score: -3.275
+Metric val_r2 improved by 0.270 >= min_delta = 0.0. New best score: -3.004
+Metric val_r2 improved by 0.283 >= min_delta = 0.0. New best score: -2.721
+Monitored metric val_r2 did not improve in the last 8 records. Best score: -2.721. Signaling Trainer to stop.

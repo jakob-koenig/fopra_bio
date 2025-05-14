@@ -1,0 +1,5 @@
+Finished parsing args
+Namespace(workdir='projection_run', source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad', source_key='pca_embedding', target_key='uni_pca_95', pos=500, neg=500, monitor='val_loss', projection_head=True, dropout=0.3, max_epochs=20, batchnorm=False, mlp_layers=[512, 480, 64], lr=0.0002, temperature=0.07, weight_decay=0.001, seed=None)
+Train set: 133349, Val set 43777
+NUM_WORKERS: 96
+Sanity Checking: 0it [00:00, ?it/s]Sanity Checking:   0%|          | 0/2 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/2 [00:00<?, ?it/s]                                                                   
