@@ -1,0 +1,114 @@
+Torch using device: cuda
+Jax Devices: [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/translation2/adata_histo.h5ad', output='/p/project1/hai_fzj_bda/koenig8/ot/tune_params/fused_problem', source_key='pca_embedding', target_key='uni_pca_95', linear_term='brain_area_onehot', random_seed=42)
+NA in Train set: False False
+NA in Val set: False False
+NA in y_test: False
+training MLP
+Epoch 1/100, Train Loss: 6.114340, Val Loss: 6.134463
+Epoch 2/100, Train Loss: 2.445451, Val Loss: 2.515692
+Epoch 3/100, Train Loss: 2.098088, Val Loss: 1.967060
+Epoch 4/100, Train Loss: 1.248791, Val Loss: 1.352584
+Epoch 5/100, Train Loss: 0.878682, Val Loss: 0.950803
+Epoch 6/100, Train Loss: 0.687521, Val Loss: 0.790624
+Epoch 7/100, Train Loss: 0.603370, Val Loss: 0.721912
+Epoch 8/100, Train Loss: 0.558152, Val Loss: 0.674124
+Epoch 9/100, Train Loss: 0.663867, Val Loss: 0.637200
+Epoch 10/100, Train Loss: 0.541764, Val Loss: 0.604199
+Epoch 11/100, Train Loss: 0.485897, Val Loss: 0.576293
+Epoch 12/100, Train Loss: 0.499419, Val Loss: 0.549512
+Epoch 13/100, Train Loss: 0.385328, Val Loss: 0.525748
+Epoch 14/100, Train Loss: 0.390494, Val Loss: 0.504127
+Epoch 15/100, Train Loss: 0.370399, Val Loss: 0.483494
+Epoch 16/100, Train Loss: 0.416927, Val Loss: 0.466962
+Epoch 17/100, Train Loss: 0.377139, Val Loss: 0.449098
+Epoch 18/100, Train Loss: 0.263241, Val Loss: 0.433369
+Epoch 19/100, Train Loss: 0.265244, Val Loss: 0.419789
+Epoch 20/100, Train Loss: 0.261526, Val Loss: 0.407271
+Epoch 21/100, Train Loss: 0.274211, Val Loss: 0.395022
+Epoch 22/100, Train Loss: 0.280648, Val Loss: 0.385581
+Epoch 23/100, Train Loss: 0.259690, Val Loss: 0.376269
+Epoch 24/100, Train Loss: 0.234320, Val Loss: 0.367021
+Epoch 25/100, Train Loss: 0.222160, Val Loss: 0.359025
+Epoch 26/100, Train Loss: 0.233261, Val Loss: 0.351844
+Epoch 27/100, Train Loss: 0.198458, Val Loss: 0.345140
+Epoch 28/100, Train Loss: 0.193947, Val Loss: 0.338315
+Epoch 29/100, Train Loss: 0.182286, Val Loss: 0.333008
+Epoch 30/100, Train Loss: 0.177316, Val Loss: 0.326772
+Epoch 31/100, Train Loss: 0.170140, Val Loss: 0.323053
+Epoch 32/100, Train Loss: 0.161957, Val Loss: 0.318187
+Epoch 33/100, Train Loss: 0.155779, Val Loss: 0.314432
+Epoch 34/100, Train Loss: 0.153880, Val Loss: 0.310450
+Epoch 35/100, Train Loss: 0.136377, Val Loss: 0.306010
+Epoch 36/100, Train Loss: 0.134443, Val Loss: 0.303137
+Epoch 37/100, Train Loss: 0.145276, Val Loss: 0.300591
+Epoch 38/100, Train Loss: 0.127725, Val Loss: 0.297771
+Epoch 39/100, Train Loss: 0.130421, Val Loss: 0.294321
+Epoch 40/100, Train Loss: 0.138370, Val Loss: 0.292296
+Epoch 41/100, Train Loss: 0.129615, Val Loss: 0.290049
+Epoch 42/100, Train Loss: 0.120321, Val Loss: 0.287567
+Epoch 43/100, Train Loss: 0.119221, Val Loss: 0.284757
+Epoch 44/100, Train Loss: 0.113634, Val Loss: 0.284002
+Epoch 45/100, Train Loss: 0.100812, Val Loss: 0.282108
+Epoch 46/100, Train Loss: 0.103860, Val Loss: 0.279816
+Epoch 47/100, Train Loss: 0.107174, Val Loss: 0.277879
+Epoch 48/100, Train Loss: 0.100733, Val Loss: 0.275563
+Epoch 49/100, Train Loss: 0.101383, Val Loss: 0.274546
+Epoch 50/100, Train Loss: 0.087759, Val Loss: 0.273072
+Epoch 51/100, Train Loss: 0.092823, Val Loss: 0.271884
+Epoch 52/100, Train Loss: 0.092337, Val Loss: 0.269931
+Epoch 53/100, Train Loss: 0.087087, Val Loss: 0.269215
+Epoch 54/100, Train Loss: 0.084179, Val Loss: 0.267844
+Epoch 55/100, Train Loss: 0.079337, Val Loss: 0.267034
+Epoch 56/100, Train Loss: 0.084560, Val Loss: 0.266087
+Epoch 57/100, Train Loss: 0.077684, Val Loss: 0.265929
+Epoch 58/100, Train Loss: 0.085782, Val Loss: 0.264444
+Epoch 59/100, Train Loss: 0.071978, Val Loss: 0.263035
+Epoch 60/100, Train Loss: 0.081819, Val Loss: 0.263265
+Epoch 61/100, Train Loss: 0.072161, Val Loss: 0.261743
+Epoch 62/100, Train Loss: 0.067694, Val Loss: 0.262026
+Epoch 63/100, Train Loss: 0.076450, Val Loss: 0.260694
+Epoch 64/100, Train Loss: 0.070115, Val Loss: 0.259767
+Epoch 65/100, Train Loss: 0.066118, Val Loss: 0.258530
+Epoch 66/100, Train Loss: 0.063534, Val Loss: 0.258210
+Epoch 67/100, Train Loss: 0.056101, Val Loss: 0.257688
+Epoch 68/100, Train Loss: 0.060760, Val Loss: 0.257151
+Epoch 69/100, Train Loss: 0.058642, Val Loss: 0.256800
+Epoch 70/100, Train Loss: 0.061149, Val Loss: 0.256443
+Epoch 71/100, Train Loss: 0.053260, Val Loss: 0.255814
+Epoch 72/100, Train Loss: 0.066061, Val Loss: 0.256144
+Epoch 73/100, Train Loss: 0.058915, Val Loss: 0.255261
+Epoch 74/100, Train Loss: 0.054626, Val Loss: 0.254596
+Epoch 75/100, Train Loss: 0.056120, Val Loss: 0.254572
+Epoch 76/100, Train Loss: 0.054634, Val Loss: 0.254470
+Epoch 77/100, Train Loss: 0.051706, Val Loss: 0.254185
+Epoch 78/100, Train Loss: 0.050908, Val Loss: 0.253616
+Epoch 79/100, Train Loss: 0.053056, Val Loss: 0.253595
+Epoch 80/100, Train Loss: 0.054907, Val Loss: 0.253599
+Epoch 81/100, Train Loss: 0.044551, Val Loss: 0.253410
+Epoch 82/100, Train Loss: 0.049539, Val Loss: 0.253391
+Epoch 83/100, Train Loss: 0.052549, Val Loss: 0.253741
+Epoch 84/100, Train Loss: 0.041038, Val Loss: 0.252877
+Epoch 85/100, Train Loss: 0.052677, Val Loss: 0.252181
+Epoch 86/100, Train Loss: 0.044342, Val Loss: 0.253042
+Epoch 87/100, Train Loss: 0.051499, Val Loss: 0.252292
+Epoch 88/100, Train Loss: 0.044947, Val Loss: 0.251691
+Epoch 89/100, Train Loss: 0.045911, Val Loss: 0.252881
+Epoch 90/100, Train Loss: 0.047354, Val Loss: 0.252884
+Epoch 91/100, Train Loss: 0.040214, Val Loss: 0.253455
+Epoch 92/100, Train Loss: 0.043780, Val Loss: 0.252953
+Epoch 93/100, Train Loss: 0.046702, Val Loss: 0.252763
+Early stopping triggered after 93 epochs!
+alpha,epsilon,tau_a,tau_b,r2
+Reloaded JAX with new device settings: [CudaDevice(id=0)]
+Reloaded JAX with new device settings: [CudaDevice(id=0)]
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m10000[0m, [1;36m10000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+Reloaded JAX with new device settings: [CudaDevice(id=0)]
+Reloaded JAX with new device settings: [CudaDevice(id=0)]
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   

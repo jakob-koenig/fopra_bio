@@ -1,0 +1,762 @@
+Torch using device: cuda
+Jax Devices: [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad', output='/p/project1/hai_fzj_bda/koenig8/ot/tune_params/scaled_problem', source_key='pca_embedding', target_key='uni_pca_95', linear_term='brain_area_onehot', metric='translation', random_seed=42, imbalanced=False, try_metric_spaces=True)
+adata_src.obsm contains
+['X_umap', 'brain_area_onehot', 'brain_area_similarities', 'pca_embedding', 'pca_plus_slides', 'pca_plus_slides_scaled']
+adata_target.obsm contains
+['brain_area_onehot', 'brain_area_similarities', 'uni_embedding', 'uni_pca_95', 'uni_pca_plus_coords']
+NA in Train set: False False
+NA in Val set: False False
+Adata shapes: (12500, 50) || (12500, 1536)
+NA in src_coords: False
+training MLP
+Epoch 1/100, Train Loss: 2.922542, Val Loss: 3.222616
+Epoch 2/100, Train Loss: 1.615313, Val Loss: 1.758020
+Epoch 3/100, Train Loss: 1.363392, Val Loss: 1.484649
+Epoch 4/100, Train Loss: 1.236887, Val Loss: 1.221621
+Epoch 5/100, Train Loss: 0.895848, Val Loss: 1.016039
+Epoch 6/100, Train Loss: 0.730694, Val Loss: 0.890774
+Epoch 7/100, Train Loss: 0.716805, Val Loss: 0.804355
+Epoch 8/100, Train Loss: 0.663185, Val Loss: 0.737934
+Epoch 9/100, Train Loss: 0.620155, Val Loss: 0.688407
+Epoch 10/100, Train Loss: 0.514831, Val Loss: 0.648938
+Epoch 11/100, Train Loss: 0.581947, Val Loss: 0.614496
+Epoch 12/100, Train Loss: 0.513223, Val Loss: 0.584986
+Epoch 13/100, Train Loss: 0.430632, Val Loss: 0.561088
+Epoch 14/100, Train Loss: 0.444021, Val Loss: 0.543653
+Epoch 15/100, Train Loss: 0.362260, Val Loss: 0.524361
+Epoch 16/100, Train Loss: 0.315915, Val Loss: 0.505494
+Epoch 17/100, Train Loss: 0.360566, Val Loss: 0.492777
+Epoch 18/100, Train Loss: 0.344093, Val Loss: 0.477826
+Epoch 19/100, Train Loss: 0.313700, Val Loss: 0.465438
+Epoch 20/100, Train Loss: 0.307474, Val Loss: 0.454757
+Epoch 21/100, Train Loss: 0.352260, Val Loss: 0.445927
+Epoch 22/100, Train Loss: 0.301793, Val Loss: 0.436789
+Epoch 23/100, Train Loss: 0.272688, Val Loss: 0.426626
+Epoch 24/100, Train Loss: 0.276947, Val Loss: 0.419617
+Epoch 25/100, Train Loss: 0.279427, Val Loss: 0.412791
+Epoch 26/100, Train Loss: 0.301148, Val Loss: 0.404997
+Epoch 27/100, Train Loss: 0.245172, Val Loss: 0.399719
+Epoch 28/100, Train Loss: 0.258892, Val Loss: 0.394578
+Epoch 29/100, Train Loss: 0.253223, Val Loss: 0.388793
+Epoch 30/100, Train Loss: 0.208727, Val Loss: 0.383718
+Epoch 31/100, Train Loss: 0.244356, Val Loss: 0.380037
+Epoch 32/100, Train Loss: 0.234115, Val Loss: 0.373613
+Epoch 33/100, Train Loss: 0.211410, Val Loss: 0.368891
+Epoch 34/100, Train Loss: 0.250041, Val Loss: 0.365162
+Epoch 35/100, Train Loss: 0.197610, Val Loss: 0.361093
+Epoch 36/100, Train Loss: 0.201362, Val Loss: 0.357655
+Epoch 37/100, Train Loss: 0.209018, Val Loss: 0.354055
+Epoch 38/100, Train Loss: 0.239321, Val Loss: 0.350799
+Epoch 39/100, Train Loss: 0.187312, Val Loss: 0.346187
+Epoch 40/100, Train Loss: 0.221281, Val Loss: 0.345648
+Epoch 41/100, Train Loss: 0.185464, Val Loss: 0.339249
+Epoch 42/100, Train Loss: 0.192550, Val Loss: 0.335968
+Epoch 43/100, Train Loss: 0.205821, Val Loss: 0.333300
+Epoch 44/100, Train Loss: 0.189601, Val Loss: 0.329857
+Epoch 45/100, Train Loss: 0.170853, Val Loss: 0.327122
+Epoch 46/100, Train Loss: 0.164132, Val Loss: 0.324093
+Epoch 47/100, Train Loss: 0.173207, Val Loss: 0.321939
+Epoch 48/100, Train Loss: 0.175832, Val Loss: 0.319238
+Epoch 49/100, Train Loss: 0.178812, Val Loss: 0.316114
+Epoch 50/100, Train Loss: 0.159461, Val Loss: 0.314642
+Epoch 51/100, Train Loss: 0.180614, Val Loss: 0.309777
+Epoch 52/100, Train Loss: 0.164202, Val Loss: 0.308213
+Epoch 53/100, Train Loss: 0.150075, Val Loss: 0.308158
+Epoch 54/100, Train Loss: 0.154910, Val Loss: 0.305029
+Epoch 55/100, Train Loss: 0.172926, Val Loss: 0.301890
+Epoch 56/100, Train Loss: 0.186408, Val Loss: 0.302264
+Epoch 57/100, Train Loss: 0.149665, Val Loss: 0.298506
+Epoch 58/100, Train Loss: 0.176129, Val Loss: 0.297213
+Epoch 59/100, Train Loss: 0.157752, Val Loss: 0.293896
+Epoch 60/100, Train Loss: 0.148180, Val Loss: 0.292642
+Epoch 61/100, Train Loss: 0.139462, Val Loss: 0.291560
+Epoch 62/100, Train Loss: 0.140627, Val Loss: 0.290169
+Epoch 63/100, Train Loss: 0.166710, Val Loss: 0.286604
+Epoch 64/100, Train Loss: 0.154999, Val Loss: 0.285312
+Epoch 65/100, Train Loss: 0.146013, Val Loss: 0.282940
+Epoch 66/100, Train Loss: 0.127275, Val Loss: 0.281355
+Epoch 67/100, Train Loss: 0.146439, Val Loss: 0.283590
+Epoch 68/100, Train Loss: 0.116671, Val Loss: 0.277957
+Epoch 69/100, Train Loss: 0.151512, Val Loss: 0.276177
+Epoch 70/100, Train Loss: 0.112342, Val Loss: 0.275981
+Epoch 71/100, Train Loss: 0.132748, Val Loss: 0.273932
+Epoch 72/100, Train Loss: 0.125359, Val Loss: 0.272504
+Epoch 73/100, Train Loss: 0.131053, Val Loss: 0.272735
+Epoch 74/100, Train Loss: 0.124830, Val Loss: 0.270810
+Epoch 75/100, Train Loss: 0.116528, Val Loss: 0.269222
+Epoch 76/100, Train Loss: 0.123546, Val Loss: 0.267551
+Epoch 77/100, Train Loss: 0.126532, Val Loss: 0.266512
+Epoch 78/100, Train Loss: 0.120198, Val Loss: 0.265268
+Epoch 79/100, Train Loss: 0.101874, Val Loss: 0.263782
+Epoch 80/100, Train Loss: 0.145904, Val Loss: 0.264520
+Epoch 81/100, Train Loss: 0.109640, Val Loss: 0.262866
+Epoch 82/100, Train Loss: 0.115879, Val Loss: 0.262110
+Epoch 83/100, Train Loss: 0.118161, Val Loss: 0.261526
+Epoch 84/100, Train Loss: 0.109200, Val Loss: 0.260261
+Epoch 85/100, Train Loss: 0.113179, Val Loss: 0.260412
+Epoch 86/100, Train Loss: 0.110310, Val Loss: 0.257302
+Epoch 87/100, Train Loss: 0.106744, Val Loss: 0.257990
+Epoch 88/100, Train Loss: 0.111422, Val Loss: 0.256275
+Epoch 89/100, Train Loss: 0.118713, Val Loss: 0.255637
+Epoch 90/100, Train Loss: 0.101730, Val Loss: 0.256142
+Epoch 91/100, Train Loss: 0.117611, Val Loss: 0.255928
+Epoch 92/100, Train Loss: 0.111339, Val Loss: 0.253190
+Epoch 93/100, Train Loss: 0.111139, Val Loss: 0.253603
+Epoch 94/100, Train Loss: 0.101868, Val Loss: 0.253175
+Epoch 95/100, Train Loss: 0.092474, Val Loss: 0.252802
+Epoch 96/100, Train Loss: 0.098244, Val Loss: 0.249849
+Epoch 97/100, Train Loss: 0.102077, Val Loss: 0.250625
+Epoch 98/100, Train Loss: 0.104248, Val Loss: 0.248337
+Epoch 99/100, Train Loss: 0.095505, Val Loss: 0.248448
+Epoch 100/100, Train Loss: 0.095620, Val Loss: 0.247904
+alpha,epsilon,tau_a,tau_b,r2, source_key, target_key, linear_term
+Starting job with 0.5710391484696978,0.15930880082905977,0.26509131087954746,0.8017219002454925, pca_plus_slides, uni_pca_95, brain_area_onehot
+Source, Target: ('pca_plus_slides', 'uni_pca_95')
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.06302688428547425,0.06674238851919324,0.22858013612974673,0.6857996256539677, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.016642326906534364,0.19844231964668427,0.655733358664945,0.6504878444394528, pca_embedding, uni_pca_plus_coords, brain_area_onehot
+Source, Target: ('pca_embedding', 'uni_pca_plus_coords')
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.09517004846085156,0.009334085977059873,0.9763799669573134,0.3094942063872739, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: ('pca_plus_slides', 'uni_pca_95')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.44695690190584975
+Starting job with 0.4334692968513705,0.09335311188670277,0.8739463660626887,0.7122767847290018, pca_embedding, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_embedding', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.23656393806445106,0.07708391509148071,0.11436962699819278,0.30780444305993415, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.7200397256985935,0.034673757336900916,0.45195454681591685,0.2640124790092561, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: ('pca_plus_slides', 'uni_pca_95')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.38144122184170565,0.006263627177819263,0.8580562971354988,0.5047787200327892, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4292296540753649
+Starting job with 0.8038618177574625,0.11408922443710551,0.5687508340232414,0.9650548219144144, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.6194086290888282
+Starting job with 0.2884970953618375,0.1930510961975204,0.6463308229180164,0.3483992638202891, pca_embedding, uni_pca_95, brain_area_onehot
+Source, Target: ('pca_embedding', 'uni_pca_95')
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.01,0.2,0.7075332741742882,0.1, pca_plus_slides_scaled, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.3779608241695884,0.006418051493175731,0.8686015962801794,0.489095649546445, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4186005806872431
+Starting job with 0.8107391741809055,0.11440068081186625,0.5603773193760695,0.9683367263971018, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.6168020589437283
+Starting job with 0.17344870063929732,0.008370179750117798,0.9467409790890499,0.3595928008174316, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4487176222867828
+Starting job with 0.2963390206411775,0.007598728378390044,0.8894650312469408,0.4381102938445576, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.36615186686817713
+Starting job with 0.14118106254480978,0.008494573679332368,0.9652204687090474,0.3501614183669375, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4477443793176783
+Starting job with 0.804721511909463,0.11440127106229081,0.5298276417802109,0.9219736700157974, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.5354329544370655
+Starting job with 0.14983186230018797,0.008495371473007562,0.9600869589021422,0.3728228961121476, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4483030991861337
+Starting job with 0.1032616684258134,0.008532218573385634,0.9605504795853409,0.3641944514569344, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4477342717632644
+Starting job with 0.7191431100090107,0.11444836407640184,0.6117251598475629,0.9651710548337046, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.5554390115800039
+Starting job with 0.22870731367331107,0.008039820612310355,0.8767624998894016,0.33472219253313723, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.3766510368875073
+Starting job with 0.14314584160915575,0.008494815363617379,0.971109676376186,0.3557173080171584, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.44793879447596147
+Starting job with 0.1710555958242987,0.008265583055904248,0.9305905944179912,0.38620566205979734, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.45071720639668983
+Starting job with 0.8471325055392126,0.11446458785851626,0.7228247858425467,1.0, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.5862346497450416
+Starting job with 0.08022018496298572,0.008432374293909183,0.9491509296983748,0.39503282508561066, pca_plus_slides, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.2655568276571307
+Starting job with 0.2792335394772673,0.008178663998072072,0.9452678775331914,0.32393473732685907, pca_plus_slides_scaled, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.45003487912757817
+Starting job with 0.21746450541202758,0.008215564714232295,0.9305710088166989,0.34648710490656265, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.360702020351215
+Starting job with 0.17579163308724022,0.00839148571043379,0.9457239261396385,0.35674712866628056, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.4435673689551231
+Starting job with 0.17611388819723398,0.008474034874092923,0.9615463367012007,0.3703813216237476, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.44869449486455376
+Starting job with 0.18075074999937712,0.008329373291189792,0.9405519837212436,0.353357850954525, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4497890338783284
+Starting job with 0.8289833298694955,0.11442163475766115,0.5604625180826938,0.9550163844780769, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.6871938521814843
+Starting job with 0.15515485063418966,0.008239946420713296,0.941762913202265,0.36924835642606824, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.3261712014475219
+Starting job with 0.13589405814643915,0.008609206391015032,0.9355329686090877,0.31980587189067966, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.44831041337855204
+Starting job with 0.14200503699864958,0.008498992636722451,0.9509386148855001,0.3379730340748637, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4475226961660035
+Starting job with 0.22676389975526756,0.00812920999908245,0.9143645472935878,0.3692648228488905, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.2991299256634638
+Starting job with 0.24163423876113893,0.008517552515237767,0.9791298009546825,0.3124969488358129, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.36600940626344164
+Starting job with 0.0928138055669041,0.008476832257980849,0.9978496250388872,0.3557387829496852, pca_plus_slides, uni_pca_plus_coords, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_plus_coords'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.2687371927674854
+Starting job with 0.20389241897204938,0.008204732179291713,0.933185165490113,0.37248426700539916, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.33140268048172733
+Starting job with 0.1471043932440847,0.008529493355511043,0.9524670965948377,0.357696887475606, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4480076569009668
+Starting job with 0.16124708980772437,0.008360300743760743,0.9827063221622866,0.4061337407611757, pca_plus_slides_scaled, uni_pca_95, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_95'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4189539609477267
+Starting job with 0.1734451921744502,0.008310377477889604,0.93464075621566,0.3691465567518666, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.3264606108711006
+Starting job with 0.1458267043427263,0.008523671488117581,0.952158092848589,0.35295312607593987, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.447913331753994
+Starting job with 0.24275624006696822,0.008501226852260365,0.8934349855908637,0.4274788281677582, pca_plus_slides, uni_pca_95, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4205337173756434
+Starting job with 0.15878221003034282,0.008509250943483418,0.9918479815938597,0.25358926873250287, pca_plus_slides_scaled, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.44704519812025234
+Starting job with 0.19034029101940064,0.00846519534745377,0.8964028819437877,0.4192328368269892, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4515969876564569
+Starting job with 0.15248004963116904,0.008557443447339354,0.9665382875297052,0.31073855502933245, pca_plus_slides_scaled, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.44668158071576936
+Starting job with 0.13309360660550834,0.008449062560867457,1.0,0.1, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.43078199982624205
+Starting job with 0.15777765488023898,0.00848168981563446,0.8941148795755843,0.3977346200694557, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.44099375299641297
+Starting job with 0.1769525258092148,0.008547740029229018,0.9338042674794385,0.47129378411938116, pca_plus_slides, uni_pca_95, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4188811866285566
+Starting job with 0.13346832993002755,0.008493013338047093,0.951608853180295,0.38133576188963514, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.44834644012986113
+Starting job with 0.16259755571326379,0.0085666995230351,0.9258403890996857,0.41378954998334416, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4505415452676648
+Starting job with 0.20377879568053922,0.008322070873193177,0.9696342049371592,0.326430863051223, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.3491015923837093
+Starting job with 0.2325104864537327,0.008279316739927581,0.9407004252654715,0.4431850229454485, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.24363302906999074
+Starting job with 0.1492764986478565,0.008569346028254628,0.9585483469140741,0.3396581449729286, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4476134707259458
+Starting job with 0.1755028182190341,0.00853909457385728,1.0,0.360365030533612, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-4.183158156820677
+Starting job with 0.8485615602849403,0.11437061823811627,0.5195050390064406,0.949470358138975, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.6997866009580905
+Starting job with 0.18639852240643087,0.008638181535059311,0.9378376389123412,0.3788938065534804, pca_plus_slides, uni_pca_95, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.41932480465521804
+Starting job with 0.15893132255950748,0.008578772507593544,0.9404309065778172,0.3526206751339396, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.44933284850114436
+Starting job with 0.1712215538392402,0.008567615080165791,0.9529011737190176,0.3332175136310203, pca_plus_slides, uni_pca_95, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.41917456265176395
+Starting job with 0.15399018896594505,0.00858935791046497,0.9594015655944942,0.2547226838968113, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.44578329588577054
+Starting job with 0.8259956946865608,0.11437917700650646,0.5408644029384627,0.9625532872749053, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.6472666517927843
+Starting job with 0.18617582753326234,0.008464992541742005,0.9591416241870202,0.4269716341824563, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.2773891332338168
+Starting job with 0.24105473656097223,0.00850680294163174,0.9320759524068628,0.48519680004024357, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4431040830646466
+Starting job with 0.76745398899412,0.11437689000027779,0.5627425716926956,0.9714262168517789, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.576152443466717
+Starting job with 0.95,0.005360802186520617,0.6898486602750544,0.9157618604565592, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.8106293946059995
+Starting job with 0.04738841267450942,0.008437694354667931,1.0,0.23735216756300723, pca_plus_slides_scaled, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.4341974551089664
+Starting job with 0.1588730191275786,0.008446016439713044,0.9555192964407823,0.28168828386588696, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.4463357659666685
+Starting job with 0.14254526196778594,0.008395857082201546,0.9483358374033668,0.34010865207045693, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.3488622324500475
+Starting job with 0.14223045383663308,0.008508248761058938,0.9785914966379974,0.28217095326748465, pca_plus_slides_scaled, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4462917058118773
+Starting job with 0.12973651019376706,0.008535925615914933,0.975051572566221,0.3176618490388565, pca_plus_slides, uni_pca_plus_coords, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_plus_coords'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.33119759967399215
+Starting job with 0.16687379787497275,0.008584970816480417,0.9532899844154612,0.36211873743415446, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4484605655425045
+Starting job with 0.19935596642409914,0.008243148891699133,0.9449615544033715,0.38005876954146345, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.30436070541891463
+Starting job with 0.14587188174056015,0.00858334410352303,1.0,0.31497485009521764, pca_plus_slides_scaled, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.4587524455109164
+Starting job with 0.14084458927656532,0.00860089380411006,0.957340963029983,0.3493524906368003, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4477031234702728
+Starting job with 0.1537263060862519,0.008551946535646098,0.9565915224720034,0.3463429347483179, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4478759357741024
+Starting job with 0.15756098160000653,0.008587808996661922,0.9185010641465366,0.37817028562896726, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4495437615543063
+Starting job with 0.12236263172973783,0.00825707626629654,0.9802306231337681,0.2800801855951395, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.38159866077000704
+Starting job with 0.08784963976894324,0.008425514351543964,0.9955607522967123,0.26061497033012554, pca_plus_slides_scaled, uni_pca_95, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_95'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.4216363552400291
+Starting job with 0.8649192690893185,0.11438627338357825,0.5937910757341919,1.0, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.602408951874192
+Starting job with 0.13888099114974514,0.008608385946091727,0.9595240164868706,0.3415387500612568, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.44753489483072834
+Starting job with 0.6903219578888559,0.11436236749489591,0.6032969001094487,0.9717950054252318, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.5236388360425256
+Starting job with 0.14437690219208682,0.008351963869203406,0.9533229041389184,0.3349822171913164, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.35393188449489177
+Starting job with 0.13666109313395328,0.00857762840065377,0.968137413477229,0.32102112784920306, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.44715808770123483
+Starting job with 0.21552484518856452,0.008647900735574345,0.9308641538912141,0.5261116418463544, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.44276747690168516
+Starting job with 0.06553608712510059,0.00847993203007101,0.9714367213382816,0.29434761892592604, pca_plus_slides, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.3701173260369508
+Starting job with 0.04017296412059495,0.008597778730297177,1.0,0.13667250797417307, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.4554910862057004
+Starting job with 0.8093387568565142,0.11436558728897897,0.5516655431675656,0.9635813660864407, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.63358916322397
+Starting job with 0.1158015337319869,0.00855271524378964,0.9633383367386983,0.29254864208262343, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.44624876019265125
+Starting job with 0.04895940403868015,0.008537423675602382,0.992117399380188,0.29492396468479365, pca_plus_slides_scaled, uni_pca_95, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_95'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.42021060697327667
+Starting job with 0.15961194573605816,0.008636609688403216,0.9635660823597771,0.3131887567732192, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4472916358087025
+Starting job with 0.13629374813338477,0.00866800846161263,0.92292113139208,0.460344217045744, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.450508279029757
+Starting job with 0.22802302029969165,0.008180065175654718,0.9274044891094498,0.37471679927677226, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.3347323745373436
+Starting job with 0.1495270215680633,0.00857150208466465,0.9700812319467828,0.3235588536813556, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4473713006146232
+Starting job with 0.1746773721802795,0.008256136609255036,0.9527670599382502,0.3465635875033599, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides_scaled'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.34879858785171264
+Starting job with 0.15731011042371681,0.00864672419564658,0.9494280882032297,0.32807634863362467, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4476680567999279
+Starting job with 0.10340232794179804,0.008636062685660601,0.999999108594115,0.28861140934620966, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.4489542171768007
+Starting job with 0.04896582738680948,0.008602135178027673,1.0,0.16627605327824826, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.4345225509601698
+Starting job with 0.21541715569328207,0.008618535039668538,0.9496084029889738,0.3839087340841969, pca_plus_slides, uni_pca_95, brain_area_similarities
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_95'))
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.44994054931302335
+Starting job with 0.23757774763407788,0.008508193319467344,0.8018958197025884,0.6173968332699474, pca_plus_slides, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.08146885837425913,0.008454167209814354,0.9586649841098763,0.361970889938973, pca_plus_slides, uni_pca_plus_coords, brain_area_onehot
+Source, Target: (np.str_('pca_plus_slides'), np.str_('uni_pca_plus_coords'))
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[1;35mnp.str_[0m[1m([0m[32m'brain_area_onehot'[0m[1m)[0m[1m][0m`          
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.29570007288973216

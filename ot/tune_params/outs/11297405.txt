@@ -1,0 +1,12 @@
+Torch using device: cuda
+Jax Devices: [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad', output='/p/project1/hai_fzj_bda/koenig8/ot/tune_params/only_scaled', source_key='pca_plus_slides_scaled', target_key='uni_pca_plus_coords', linear_term='brain_area_similarities', metric='translation', random_seed=42, imbalanced=False, try_metric_spaces=False)
+adata_src.obsm contains
+['X_umap', 'brain_area_onehot', 'brain_area_similarities', 'pca_embedding', 'pca_plus_slides', 'pca_plus_slides_scaled']
+adata_target.obsm contains
+['brain_area_onehot', 'brain_area_similarities', 'uni_embedding', 'uni_pca_95', 'uni_pca_plus_coords']
+NA in Train set: False False
+NA in Val set: False False
+Adata shapes: (12500, 50) || (12500, 1536)
+NA in src_coords: False

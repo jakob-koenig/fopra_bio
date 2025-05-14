@@ -1,0 +1,167 @@
+Devices [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad', path='/p/project1/hai_fzj_bda/koenig8/ot/visualize_alpha/output_normal', source_key='pca_embedding', target_key='uni_pca_95', linear_term='brain_area_onehot', random_seed=347)
+reusing adata
+Adata shape: (50000, 1536)
+Histology brain area classification:               precision    recall  f1-score   support
+
+          CB       0.90      0.89      0.89       480
+       CTXsp       0.46      0.66      0.54        89
+          HB       0.85      0.79      0.82       539
+         HIP       0.73      0.82      0.77       198
+          HY       0.69      0.65      0.67       222
+   Isocortex       0.97      0.88      0.92      1280
+         LSX       0.64      0.78      0.71        46
+          MB       0.83      0.81      0.82       430
+         OLF       0.79      0.81      0.80       408
+         PAL       0.00      0.00      0.00         2
+         RHP       0.69      0.81      0.74       235
+        STRd       0.85      0.85      0.85       224
+        STRv       0.66      0.76      0.71       136
+          TH       0.80      0.79      0.79       243
+        sAMY       0.41      0.57      0.48        75
+   ventricle       0.34      0.51      0.41        90
+white_matter       0.45      0.41      0.43       303
+
+    accuracy                           0.79      5000
+   macro avg       0.65      0.69      0.67      5000
+weighted avg       0.80      0.79      0.79      5000
+
+Skipping alpha: 0.01
+Skipping alpha: 0.06157894736842105
+Skipping alpha: 0.1131578947368421
+Skipping alpha: 0.16473684210526315
+Skipping alpha: 0.2163157894736842
+Skipping alpha: 0.26789473684210524
+Skipping alpha: 0.3194736842105263
+alpha: 0.37105263157894736
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+Switched JAX to CPU mode.
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+Performing 5 translation steps
+_____
+■■■■■
+Plotting UMAP
+Predictin areas
+brain area score: 0.769
+Translation based coordinate score: 0.095
+Switched JAX to GPU mode.
+alpha: 0.4226315789473684
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+Switched JAX to CPU mode.
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+Performing 5 translation steps
+_____
+■■■■■
+Plotting UMAP
+Predictin areas
+brain area score: 0.769
+Translation based coordinate score: 0.095
+Switched JAX to GPU mode.
+alpha: 0.47421052631578947
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+Switched JAX to CPU mode.
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+Performing 5 translation steps
+_____
+■■■■■
+Plotting UMAP
+Predictin areas
+brain area score: 0.769
+Translation based coordinate score: 0.096
+Switched JAX to GPU mode.
+alpha: 0.5257894736842105
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+Switched JAX to CPU mode.
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+Performing 5 translation steps
+_____
+■■■■■
+Plotting UMAP
+Predictin areas
+brain area score: 0.768
+Translation based coordinate score: 0.094
+Switched JAX to GPU mode.
+alpha: 0.5773684210526315
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+Switched JAX to CPU mode.
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+Performing 5 translation steps
+_____
+■■■■■
+Plotting UMAP
+Predictin areas
+brain area score: 0.768
+Translation based coordinate score: 0.094
+Switched JAX to GPU mode.
+alpha: 0.6289473684210526
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+Switched JAX to CPU mode.
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+Performing 5 translation steps
+_____
+■■■■■
+Plotting UMAP
+Predictin areas
+brain area score: 0.768
+Translation based coordinate score: 0.094
+Switched JAX to GPU mode.
+alpha: 0.6805263157894736
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+Switched JAX to CPU mode.
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+Performing 5 translation steps
+_____
+■■■■■
+Plotting UMAP
+Predictin areas
+brain area score: 0.768
+Translation based coordinate score: 0.094
+Switched JAX to GPU mode.
+alpha: 0.7321052631578947
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+Switched JAX to CPU mode.
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+Performing 5 translation steps
+_____
+■■■■■

@@ -1,0 +1,12 @@
+Devices [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad', path='/p/project1/hai_fzj_bda/koenig8/ot/models/normalized_tuned', alpha=0.49, epsilon=0.0078, tau_a=0.913, tau_b=0.592, source_key='pca_plus_slides_scaled', target_key='uni_pca_plus_coords', sample_target=True, low_rank=False, linear_term='brain_area_similarities', random_seed=None)
+Adata shapes: src (50000, 50) || target (50156, 1536)
+===========================================Fractions 2==========================================
+Source Adatas: [(25000, 50), (25000, 50)]
+Target Adatas: [(25078, 1536), (25078, 1536)]
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25078[0m[1m)[0m[1m][0m.     
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25078[0m[1m)[0m[1m][0m.     
+Stopped at 2 fractions

@@ -1,0 +1,383 @@
+Devices [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad', path='/p/project1/hai_fzj_bda/koenig8/ot/visualize_alpha/epsilon', source_key='pca_embedding', target_key='uni_pca_95', linear_term='brain_area_onehot', random_seed=713, translate=False)
+reusing adata
+Adata shape: (50000, 1536)
+Histology brain area classification:               precision    recall  f1-score   support
+
+          CB       0.93      0.89      0.91       488
+       CTXsp       0.60      0.67      0.63        93
+          HB       0.84      0.82      0.83       530
+         HIP       0.75      0.82      0.79       198
+          HY       0.74      0.71      0.72       226
+   Isocortex       0.96      0.87      0.92      1272
+         LSX       0.63      0.72      0.67        46
+          MB       0.82      0.80      0.81       424
+         OLF       0.83      0.81      0.82       425
+         PAL       0.00      0.00      0.00         2
+         RHP       0.71      0.82      0.76       240
+        STRd       0.79      0.83      0.81       221
+        STRv       0.64      0.69      0.66       137
+          TH       0.79      0.77      0.78       240
+        sAMY       0.39      0.58      0.47        71
+   ventricle       0.39      0.57      0.47        91
+white_matter       0.44      0.46      0.45       296
+
+    accuracy                           0.80      5000
+   macro avg       0.66      0.70      0.68      5000
+weighted avg       0.81      0.80      0.80      5000
+
+[Loading data] Time since last: 14.720 s
+Beginning the solving
+Skipping epsilon: 0.0001
+Skipping epsilon: 0.00013521799213228163
+Skipping epsilon: 0.0001828390539628578
+Skipping epsilon: 0.0002472312976022353
+Skipping epsilon: 0.0003343011965403283
+Skipping epsilon: 0.00045203536563602405
+epsilon: 0.0006112331451408496
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+[Solving] Time since last: 192.564 s
+Cell transitions plot
+[Cell Transitions] Time since last: 4.918 s
+Predicting coordinates
+Translation based coordinate score: -0.037965
+[Coordinates] Time since last: 119.256 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.0008264971861064517
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+[Solving] Time since last: 145.293 s
+Cell transitions plot
+[Cell Transitions] Time since last: 4.915 s
+Predicting coordinates
+Translation based coordinate score: -0.017280
+[Coordinates] Time since last: 136.591 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.001117572900082951
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+[Solving] Time since last: 151.070 s
+Cell transitions plot
+[Cell Transitions] Time since last: 2.137 s
+Predicting coordinates
+Translation based coordinate score: 0.004687
+[Coordinates] Time since last: 138.973 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.0015111596361066764
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+[Solving] Time since last: 146.505 s
+Cell transitions plot
+[Cell Transitions] Time since last: 2.143 s
+Predicting coordinates
+Translation based coordinate score: 0.022037
+[Coordinates] Time since last: 171.898 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.0020433597178569417
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+[Solving] Time since last: 151.587 s
+Cell transitions plot
+[Cell Transitions] Time since last: 2.138 s
+Predicting coordinates
+Translation based coordinate score: 0.035794
+[Coordinates] Time since last: 175.234 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.002762989982526012
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+[Solving] Time since last: 139.822 s
+Cell transitions plot
+[Cell Transitions] Time since last: 2.147 s
+Predicting coordinates
+Translation based coordinate score: 0.067974
+[Coordinates] Time since last: 208.704 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.003736059577187749
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+[Solving] Time since last: 153.797 s
+Cell transitions plot
+[Cell Transitions] Time since last: 2.142 s
+Predicting coordinates
+Translation based coordinate score: 0.099010
+[Coordinates] Time since last: 224.356 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.00505182474513909
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+[Solving] Time since last: 148.968 s
+Cell transitions plot
+[Cell Transitions] Time since last: 2.138 s
+Predicting coordinates
+Translation based coordinate score: 0.125864
+[Coordinates] Time since last: 226.872 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.0068309759864188255
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+[Solving] Time since last: 147.489 s
+Cell transitions plot
+[Cell Transitions] Time since last: 2.142 s
+Predicting coordinates
+Translation based coordinate score: 0.158640
+[Coordinates] Time since last: 241.865 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.009236708571873855
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[Solving] Time since last: 132.275 s
+Cell transitions plot
+[Cell Transitions] Time since last: 2.146 s
+Predicting coordinates
+Translation based coordinate score: 0.141394
+[Coordinates] Time since last: 270.510 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.012489691869998175
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[Solving] Time since last: 121.436 s
+Cell transitions plot
+[Cell Transitions] Time since last: 2.794 s
+Predicting coordinates
+Translation based coordinate score: 0.156662
+[Coordinates] Time since last: 288.043 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.016888310570120354
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[Solving] Time since last: 101.611 s
+Cell transitions plot
+[Cell Transitions] Time since last: 4.518 s
+Predicting coordinates
+Translation based coordinate score: 0.169879
+[Coordinates] Time since last: 301.839 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.022836034457980627
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[Solving] Time since last: 97.932 s
+Cell transitions plot
+[Cell Transitions] Time since last: 3.842 s
+Predicting coordinates
+Translation based coordinate score: 0.180494
+[Coordinates] Time since last: 308.671 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.03087842727671737
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[Solving] Time since last: 84.680 s
+Cell transitions plot
+[Cell Transitions] Time since last: 3.813 s
+Predicting coordinates
+Translation based coordinate score: 0.189195
+[Coordinates] Time since last: 314.626 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.041753189365604
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[Solving] Time since last: 69.762 s
+Cell transitions plot
+[Cell Transitions] Time since last: 3.793 s
+Predicting coordinates
+Translation based coordinate score: 0.196835
+[Coordinates] Time since last: 322.787 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.05645782431135902
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[Solving] Time since last: 60.802 s
+Cell transitions plot
+[Cell Transitions] Time since last: 3.806 s
+Predicting coordinates
+Translation based coordinate score: 0.203108
+[Coordinates] Time since last: 344.498 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.07634113643539084
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[Solving] Time since last: 64.768 s
+Cell transitions plot
+[Cell Transitions] Time since last: 3.801 s
+Predicting coordinates
+Translation based coordinate score: 0.206237
+[Coordinates] Time since last: 348.161 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.10322695185890117
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[Solving] Time since last: 59.548 s
+Cell transitions plot
+[Cell Transitions] Time since last: 3.727 s
+Predicting coordinates
+Translation based coordinate score: 0.205128
+[Coordinates] Time since last: 367.052 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.13958141164296314
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[Solving] Time since last: 45.079 s
+Cell transitions plot
+[Cell Transitions] Time since last: 3.822 s
+Predicting coordinates
+Translation based coordinate score: 0.201112
+[Coordinates] Time since last: 377.671 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.18873918221350958
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[Solving] Time since last: 52.578 s
+Cell transitions plot
+[Cell Transitions] Time since last: 3.729 s
+Predicting coordinates
+Translation based coordinate score: 0.196712
+[Coordinates] Time since last: 371.500 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.2552093325559961
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[Solving] Time since last: 51.627 s
+Cell transitions plot
+[Cell Transitions] Time since last: 3.728 s
+Predicting coordinates
+Translation based coordinate score: 0.192873
+[Coordinates] Time since last: 312.247 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.3450889352164153
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[Solving] Time since last: 14.276 s
+Cell transitions plot
+[Cell Transitions] Time since last: 3.714 s
+Predicting coordinates
+Translation based coordinate score: 0.189844
+[Coordinates] Time since last: 79.017 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.46662232927030645
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[Solving] Time since last: 32.744 s
+Cell transitions plot
+[Cell Transitions] Time since last: 3.704 s
+Predicting coordinates
+Translation based coordinate score: 0.187247
+[Coordinates] Time since last: 253.412 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+epsilon: 0.6309573444801932
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[Solving] Time since last: 44.461 s
+Cell transitions plot
+[Cell Transitions] Time since last: 3.739 s
+Predicting coordinates
+Translation based coordinate score: 0.185278
+[Coordinates] Time since last: 264.586 s
+Switched JAX to CPU mode.
+Switched JAX to GPU mode.
+DONE

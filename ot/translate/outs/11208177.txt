@@ -1,0 +1,41 @@
+Imported os
+Set CUDA_VISIBLE_DEVICES to empty string
+Set JAX_PLATFORMS to cpu
+Imported TranslationProblem from moscot.problems.cross_modality
+Imported numpy as np
+Imported pandas as pd
+Imported preprocessing from sklearn
+Imported argparse
+Imported matplotlib.pyplot as plt
+Imported plotnine as p9
+Imported train_test_split from sklearn.model_selection
+Imported StandardScaler from sklearn.preprocessing
+Imported LogisticRegression from sklearn.linear_model
+Imported classification_report and r2_score from sklearn.metrics
+Imported make_pipeline from sklearn.pipeline
+Imported NearestNeighbors from sklearn.neighbors
+Imported RandomForestRegressor from sklearn.ensemble
+Imported seaborn as sns
+Imported scanpy as sc
+Imported jax
+Devices [CpuDevice(id=0)]
+Initialized argument parser
+Defined command-line arguments
+Parsed arguments: Namespace(path='/p/project1/hai_fzj_bda/koenig8/ot/models/sampled_targets', target='/p/project1/hai_fzj_bda/koenig8/ot/data/translation2/adata_histo.h5ad', source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', linear_term='xyz', source_key='pca_embedding', target_key='uni_pca_95')
+Set path: /p/project1/hai_fzj_bda/koenig8/ot/models/sampled_targets
+Loaded source data from: /p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad
+Loaded target data from: /p/project1/hai_fzj_bda/koenig8/ot/data/translation2/adata_histo.h5ad
+Set source_key: pca_embedding
+Set target_key: uni_pca_95
+Set linear_term: xyz
+Overwrote linear_term to None
+Computed fractions: 3
+Source data shape: 50000
+Target data shape: 50156
+3 fractions, with combined shape (50000, 50156)
+Loaded permutation_source.npy
+Loaded permutation_target.npy
+Computed step_N: 16667
+Computed step_M: 16719
+finished loading problems
+======================================Fraction 0 ============================================

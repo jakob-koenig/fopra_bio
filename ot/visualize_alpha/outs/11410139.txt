@@ -1,0 +1,4 @@
+Devices [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad', path='/p/project1/hai_fzj_bda/koenig8/visualize_alpha/output_normal', source_key='pca_embedding', target_key='uni_pca_95', linear_term='brain_areas', random_seed=347)
+alpha: 0.01

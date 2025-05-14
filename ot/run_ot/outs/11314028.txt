@@ -1,0 +1,84 @@
+Devices [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad', path='/p/project1/hai_fzj_bda/koenig8/ot/models/extended_features', alpha=0.7, epsilon=0.0008, tau_a=1.0, tau_b=1.0, source_key='pca_plus_slides', target_key='uni_pca_plus_coords', sample_target=True, low_rank=False, linear_term='brain_area_similarities', random_seed=None)
+Adata shapes: src (50000, 50) || target (50000, 1536)
+===========================================Fractions 2==========================================
+Source Adatas: [(25000, 50), (25000, 50)]
+Target Adatas: [(25000, 1536), (25000, 1536)]
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+Stopped at 2 fractions
+2 fractions, with combined shape (50000, 50000)
+finished loading problems
+======================================Fraction 0 ============================================
+Performing 38 translation steps
+______________________________________
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+======================================Fraction 1 ============================================
+Performing 38 translation steps
+______________________________________
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+Plotting UMAP
+Plotting costs
+Calculating scores
+Brain area prediction performance on test set
+              precision    recall  f1-score   support
+
+          CB       0.93      0.94      0.94       962
+       CTXsp       0.61      0.75      0.67       187
+          HB       0.90      0.84      0.87      1068
+         HIP       0.81      0.87      0.84       410
+          HY       0.79      0.81      0.80       444
+   Isocortex       0.98      0.91      0.94      2532
+         LSX       0.61      0.82      0.70        90
+          MB       0.86      0.84      0.85       867
+         OLF       0.87      0.83      0.85       832
+         PAL       0.10      0.20      0.13         5
+         RHP       0.80      0.89      0.85       476
+        STRd       0.87      0.90      0.88       449
+        STRv       0.74      0.81      0.78       270
+          TH       0.85      0.89      0.87       483
+        sAMY       0.59      0.77      0.66       142
+   ventricle       0.47      0.63      0.54       184
+white_matter       0.55      0.51      0.53       599
+
+    accuracy                           0.85     10000
+   macro avg       0.73      0.78      0.75     10000
+weighted avg       0.85      0.85      0.85     10000
+
+Brain area prediction performance on translated source
+              precision    recall  f1-score   support
+
+          CB       1.00      0.69      0.82      4830
+       CTXsp       0.97      0.15      0.26       975
+          HB       0.00      0.00      0.00      5545
+         HIP       0.00      0.00      0.00      1840
+          HY       1.00      0.30      0.46      2337
+   Isocortex       0.49      1.00      0.66     12919
+         LSX       0.95      0.05      0.09       384
+          MB       0.72      0.44      0.54      4576
+          MY       0.00      0.00      0.00         0
+         OLF       0.73      0.96      0.83      4192
+           P       0.00      0.00      0.00         0
+         PAL       0.06      1.00      0.11        12
+         RHP       0.99      0.23      0.38      2592
+        STRd       0.42      0.36      0.39      1928
+        STRv       0.78      0.11      0.20      1339
+          TH       0.00      0.00      0.00      2381
+        sAMY       0.78      0.05      0.10       591
+   ventricle       0.95      0.12      0.21       935
+white_matter       0.47      0.87      0.61      2624
+
+    accuracy                           0.54     50000
+   macro avg       0.54      0.33      0.30     50000
+weighted avg       0.56      0.54      0.47     50000
+
+Location regression R2 on test set: 0.9977597265595817
+Location regression R2 on translation -0.40818130249215273
+kNN based coordinate interpolation score: 0.4832591541745592
+translation metric based coordinate interpolation score: -0.2213821972339862
+DONE

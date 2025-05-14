@@ -1,0 +1,16 @@
+Devices [CpuDevice(id=0)]
+Namespace(path='/p/project1/hai_fzj_bda/koenig8/ot/models/sampled_targets_fused', target='/p/project1/hai_fzj_bda/koenig8/ot/data/translation2/adata_histo.h5ad', source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', linear_term='brain_area_onehot', source_key='pca_embedding', target_key='uni_pca_95')
+4 fractions, with combined shape (50000, 50156)
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+finished loading problems
+======================================Fraction 0 ============================================
+======================================Fraction 1 ============================================
+======================================Fraction 2 ============================================
+======================================Fraction 3 ============================================

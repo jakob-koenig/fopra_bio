@@ -1,0 +1,57 @@
+Brain area prediction performance on test set
+              precision    recall  f1-score   support
+
+          CB       0.91      0.92      0.92       965
+       CTXsp       0.53      0.77      0.63       188
+          HB       0.88      0.82      0.85      1072
+         HIP       0.80      0.88      0.84       410
+          HY       0.75      0.77      0.76       445
+   Isocortex       0.97      0.88      0.92      2541
+         LSX       0.67      0.77      0.72        90
+          MB       0.82      0.83      0.82       870
+         OLF       0.87      0.84      0.86       835
+         PAL       0.00      0.00      0.00         5
+         RHP       0.71      0.84      0.77       478
+        STRd       0.88      0.87      0.87       450
+        STRv       0.72      0.85      0.78       271
+          TH       0.85      0.82      0.84       484
+        sAMY       0.57      0.69      0.62       143
+   ventricle       0.38      0.60      0.47       184
+white_matter       0.54      0.49      0.51       601
+
+    accuracy                           0.82     10032
+   macro avg       0.70      0.74      0.72     10032
+weighted avg       0.84      0.82      0.83     10032
+
+Brain area prediction performance on translated source
+              precision    recall  f1-score   support
+
+          CB       1.00      0.73      0.85      4570
+       CTXsp       0.97      0.80      0.88       178
+          HB       0.00      0.00      0.00      4810
+         HIP       1.00      0.82      0.90      1339
+          HY       1.00      0.52      0.68      1366
+   Isocortex       0.68      1.00      0.81     17681
+         LSX       0.95      1.00      0.97        19
+          MB       0.99      0.94      0.96      2924
+          MY       0.00      0.00      0.00         0
+         OLF       0.78      1.00      0.88      4318
+           P       0.00      0.00      0.00         0
+         PAL       0.04      1.00      0.08         9
+         RHP       0.99      0.93      0.96       654
+        STRd       1.00      0.73      0.84      2280
+        STRv       1.00      0.60      0.75       328
+          TH       0.99      0.41      0.58      1455
+        sAMY       0.97      0.83      0.90        47
+   ventricle       0.98      0.86      0.92       130
+white_matter       0.57      0.35      0.43      7892
+
+    accuracy                           0.72     50000
+   macro avg       0.73      0.66      0.65     50000
+weighted avg       0.70      0.72      0.69     50000
+
+
+Location regression R2 on test set: 0.8090225561693796 
+Location regression R2 on translation -1.1948852180945393 
+
+Coordinate interpolation score: 0.4023501945985908 

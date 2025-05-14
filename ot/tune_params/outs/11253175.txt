@@ -1,0 +1,19 @@
+Torch using device: cuda
+Jax Devices: [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad', output='/p/project1/hai_fzj_bda/koenig8/ot/tune_params/scaled_problem', source_key='pca_embedding', target_key='uni_pca_95', linear_term='brain_area_onehot', metric='translation', random_seed=42, imbalanced=False, try_metric_spaces=True)
+NA in Train set: False False
+NA in Val set: False False
+Adata shapes: (12500, 50) || (12500, 1536)
+NA in src_coords: False
+alpha,epsilon,tau_a,tau_b,r2, source_key, target_key, linear_term
+Starting job with 0.5710391484696978,0.15930880082905977,0.26509131087954746,0.8017219002454925, pca_plus_slides, uni_pca_95, brain_area_onehot
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.06302688428547425,0.06674238851919324,0.22858013612974673,0.6857996256539677, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_onehot
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   

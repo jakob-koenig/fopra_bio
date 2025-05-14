@@ -1,0 +1,34 @@
+Torch using device: cuda
+Jax Devices: [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/translation2/adata_histo.h5ad', output='/p/project1/hai_fzj_bda/koenig8/ot/tune_params/imbalanced_problem', source_key='pca_embedding', target_key='uni_pca_95', linear_term='brain_area_onehot', metric='translation', random_seed=42, imbalanced=True)
+NA in Train set: False False
+NA in Val set: False False
+NA in src_coords: False
+alpha,epsilon,tau_a,tau_b,r2
+Starting job with 0.5710391484696978,0.7967464438733728,0.26509131087954746,0.8017219002454925
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.3236860944706806,0.44638692010073766,0.18997742423620262,0.5133240027692806
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.6886788459308153,0.14372395110401887,0.6857996256539677,0.15077042112439026
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.5904326190500536,0.9386141563067346,0.1007008892569129,0.992990403362096
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       

@@ -1,0 +1,63 @@
+Torch using device: cuda
+Jax Devices: [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad', output='/p/project1/hai_fzj_bda/koenig8/ot/tune_params/only_scaled', source_key='pca_plus_slides_scaled', target_key='uni_pca_plus_coords', linear_term='brain_area_similarities', metric='IDWE', random_seed=None, imbalanced=False, try_metric_spaces=False, cost='cosine')
+adata_src.obsm contains
+['X_umap', 'brain_area_onehot', 'brain_area_similarities', 'pca_embedding', 'pca_plus_slides', 'pca_plus_slides_scaled']
+adata_target.obsm contains
+['brain_area_onehot', 'brain_area_similarities', 'uni_embedding', 'uni_pca_95', 'uni_pca_plus_coords']
+NA in Train set: False False
+NA in Val set: False False
+Adata shapes: (20000, 50) || (20000, 1536)
+NA in src_coords: False
+alpha,epsilon,tau_a,tau_b,r2,source_key, target_key, linear_term
+Starting job with 0.9102730646386867,0.07415376973168539,0.8570438997518539,0.5442914805672099, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m20000[0m, [1;36m20000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+Translating Problem 15:27:00.329213
+Performing 4 translation steps
+____
+■■■■
+ Finished translation 15:50:15.853183
+NAN in translation:  7420000
+0.23849400686058286
+Starting job with 0.134318436791212,0.058995070779594726,0.9062443095036227,0.6519246339211064, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m20000[0m, [1;36m20000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+Translating Problem 17:59:34.085843
+Performing 4 translation steps
+____
+■■■■
+ Finished translation 18:23:19.363351
+0.5359344923233224
+Starting job with 0.38343816065024594,0.002024249847138659,0.12586317253215895,0.19499113034859455, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m20000[0m, [1;36m20000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+Translating Problem 21:37:12.390009
+Performing 4 translation steps
+____
+■■■■
+ Finished translation 22:01:30.578345
+NAN in translation:  7420000
+0.2370650605762472
+Starting job with 0.23950776365606993,0.015080419189024006,0.12386325897051839,0.884420782017385, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m20000[0m, [1;36m20000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+Translating Problem 23:38:49.227376
+Performing 4 translation steps
+____
+■■■■
+ Finished translation 00:01:26.024453
+0.30940156400332464
+Starting job with 0.5230070278225044,0.06794080674587966,0.7177344690534401,0.4754776599488506, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m20000[0m, [1;36m20000[0m[1m)[0m[1m][0m.     

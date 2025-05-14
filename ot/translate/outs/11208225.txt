@@ -1,0 +1,70 @@
+
+Devices [CpuDevice(id=0)]
+Namespace(path='/p/project1/hai_fzj_bda/koenig8/ot/models/sampled_targets', target='/p/project1/hai_fzj_bda/koenig8/ot/data/translation2/adata_histo.h5ad', source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', linear_term='xyz', source_key='pca_embedding', target_key='uni_pca_95')
+3 fractions, with combined shape (50000, 50156)
+finished loading problems
+======================================Fraction 0 ============================================
+Performing 2 translation steps
+__■■======================================Fraction 1 ============================================
+Performing 2 translation steps
+__■■======================================Fraction 2 ============================================
+Performing 2 translation steps
+__■■Plotting UMAP
+Plotting costs
+Calculating scores
+Brain area prediction performance on test set
+              precision    recall  f1-score   support
+
+          CB       0.91      0.92      0.92       965
+       CTXsp       0.53      0.77      0.63       188
+          HB       0.88      0.82      0.85      1072
+         HIP       0.80      0.88      0.84       410
+          HY       0.75      0.77      0.76       445
+   Isocortex       0.97      0.88      0.92      2541
+         LSX       0.67      0.77      0.72        90
+          MB       0.82      0.83      0.82       870
+         OLF       0.87      0.84      0.86       835
+         PAL       0.00      0.00      0.00         5
+         RHP       0.71      0.84      0.77       478
+        STRd       0.88      0.87      0.87       450
+        STRv       0.72      0.85      0.78       271
+          TH       0.85      0.82      0.84       484
+        sAMY       0.57      0.69      0.62       143
+   ventricle       0.38      0.60      0.47       184
+white_matter       0.54      0.49      0.51       601
+
+    accuracy                           0.82     10032
+   macro avg       0.70      0.74      0.72     10032
+weighted avg       0.84      0.82      0.83     10032
+
+Brain area prediction performance on translated source
+              precision    recall  f1-score   support
+
+          CB       0.09      0.06      0.08      4927
+       CTXsp       0.00      0.00      0.00       308
+          HB       0.00      0.00      0.00      5587
+         HIP       0.08      0.05      0.06      1774
+          HY       0.00      0.00      0.00      2621
+   Isocortex       0.55      0.93      0.69     15376
+         LSX       0.00      0.00      0.00         4
+          MB       0.01      0.01      0.01      2905
+          MY       0.00      0.00      0.00         0
+         OLF       0.03      0.04      0.04      4335
+           P       0.00      0.00      0.00         0
+         PAL       0.00      0.00      0.00         0
+         RHP       0.01      0.01      0.01       891
+        STRd       0.18      0.14      0.16      2145
+        STRv       0.21      0.08      0.12       483
+          TH       0.00      0.00      0.00       967
+        sAMY       0.03      0.01      0.01       117
+   ventricle       0.04      0.01      0.02       498
+white_matter       0.08      0.05      0.06      7062
+
+    accuracy                           0.31     50000
+   macro avg       0.07      0.07      0.07     50000
+weighted avg       0.21      0.31      0.24     50000
+
+Location regression R2 on test set: 0.8099065651861075
+Location regression R2 on translation -1.6664102255242395
+Coordinate interpolation score: 0.15602317774820296
+DONE

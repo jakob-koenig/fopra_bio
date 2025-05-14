@@ -1,0 +1,123 @@
+Torch using device: cuda
+Jax Devices: [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/translation2/adata_histo.h5ad', output='/p/project1/hai_fzj_bda/koenig8/ot/tune_params/imbalanced_problem', source_key='pca_embedding', target_key='uni_pca_95', linear_term='brain_area_onehot', metric='translation', random_seed=42, imbalanced=True)
+NA in Train set: False False
+NA in Val set: False False
+NA in src_coords: False
+training MLP
+Epoch 1/100, Train Loss: 6.997619, Val Loss: 6.629930
+Epoch 2/100, Train Loss: 2.283719, Val Loss: 2.461320
+Epoch 3/100, Train Loss: 1.960657, Val Loss: 1.857389
+Epoch 4/100, Train Loss: 1.206216, Val Loss: 1.271804
+Epoch 5/100, Train Loss: 0.925589, Val Loss: 0.946794
+Epoch 6/100, Train Loss: 0.741433, Val Loss: 0.794697
+Epoch 7/100, Train Loss: 0.705310, Val Loss: 0.724118
+Epoch 8/100, Train Loss: 0.569956, Val Loss: 0.675983
+Epoch 9/100, Train Loss: 0.595336, Val Loss: 0.639036
+Epoch 10/100, Train Loss: 0.489286, Val Loss: 0.605496
+Epoch 11/100, Train Loss: 0.492213, Val Loss: 0.576242
+Epoch 12/100, Train Loss: 0.405074, Val Loss: 0.550439
+Epoch 13/100, Train Loss: 0.488722, Val Loss: 0.524730
+Epoch 14/100, Train Loss: 0.426652, Val Loss: 0.502503
+Epoch 15/100, Train Loss: 0.380140, Val Loss: 0.482278
+Epoch 16/100, Train Loss: 0.339417, Val Loss: 0.464095
+Epoch 17/100, Train Loss: 0.339915, Val Loss: 0.446575
+Epoch 18/100, Train Loss: 0.324810, Val Loss: 0.431740
+Epoch 19/100, Train Loss: 0.288395, Val Loss: 0.417742
+Epoch 20/100, Train Loss: 0.300157, Val Loss: 0.404909
+Epoch 21/100, Train Loss: 0.294055, Val Loss: 0.393379
+Epoch 22/100, Train Loss: 0.230353, Val Loss: 0.383176
+Epoch 23/100, Train Loss: 0.263771, Val Loss: 0.373361
+Epoch 24/100, Train Loss: 0.243317, Val Loss: 0.365039
+Epoch 25/100, Train Loss: 0.238329, Val Loss: 0.357358
+Epoch 26/100, Train Loss: 0.205345, Val Loss: 0.350425
+Epoch 27/100, Train Loss: 0.199769, Val Loss: 0.343313
+Epoch 28/100, Train Loss: 0.185362, Val Loss: 0.337565
+Epoch 29/100, Train Loss: 0.199569, Val Loss: 0.332626
+Epoch 30/100, Train Loss: 0.182850, Val Loss: 0.326788
+Epoch 31/100, Train Loss: 0.140128, Val Loss: 0.321403
+Epoch 32/100, Train Loss: 0.182593, Val Loss: 0.318396
+Epoch 33/100, Train Loss: 0.180755, Val Loss: 0.314272
+Epoch 34/100, Train Loss: 0.157194, Val Loss: 0.309576
+Epoch 35/100, Train Loss: 0.136329, Val Loss: 0.306419
+Epoch 36/100, Train Loss: 0.146491, Val Loss: 0.302890
+Epoch 37/100, Train Loss: 0.126732, Val Loss: 0.301236
+Epoch 38/100, Train Loss: 0.140564, Val Loss: 0.298084
+Epoch 39/100, Train Loss: 0.121532, Val Loss: 0.294819
+Epoch 40/100, Train Loss: 0.118134, Val Loss: 0.291643
+Epoch 41/100, Train Loss: 0.134633, Val Loss: 0.289481
+Epoch 42/100, Train Loss: 0.124784, Val Loss: 0.288037
+Epoch 43/100, Train Loss: 0.107092, Val Loss: 0.284898
+Epoch 44/100, Train Loss: 0.104190, Val Loss: 0.282338
+Epoch 45/100, Train Loss: 0.101075, Val Loss: 0.281073
+Epoch 46/100, Train Loss: 0.104057, Val Loss: 0.279408
+Epoch 47/100, Train Loss: 0.121183, Val Loss: 0.277549
+Epoch 48/100, Train Loss: 0.096726, Val Loss: 0.276499
+Epoch 49/100, Train Loss: 0.098397, Val Loss: 0.275099
+Epoch 50/100, Train Loss: 0.102924, Val Loss: 0.273392
+Epoch 51/100, Train Loss: 0.104928, Val Loss: 0.271634
+Epoch 52/100, Train Loss: 0.085771, Val Loss: 0.271005
+Epoch 53/100, Train Loss: 0.091508, Val Loss: 0.269632
+Epoch 54/100, Train Loss: 0.090745, Val Loss: 0.268224
+Epoch 55/100, Train Loss: 0.093894, Val Loss: 0.268304
+Epoch 56/100, Train Loss: 0.096632, Val Loss: 0.267229
+Epoch 57/100, Train Loss: 0.098964, Val Loss: 0.265442
+Epoch 58/100, Train Loss: 0.081181, Val Loss: 0.265487
+Epoch 59/100, Train Loss: 0.072608, Val Loss: 0.264339
+Epoch 60/100, Train Loss: 0.076548, Val Loss: 0.263536
+Epoch 61/100, Train Loss: 0.079235, Val Loss: 0.262787
+Epoch 62/100, Train Loss: 0.079645, Val Loss: 0.261943
+Epoch 63/100, Train Loss: 0.075939, Val Loss: 0.261600
+Epoch 64/100, Train Loss: 0.074928, Val Loss: 0.260252
+Epoch 65/100, Train Loss: 0.068237, Val Loss: 0.260214
+Epoch 66/100, Train Loss: 0.071855, Val Loss: 0.258957
+Epoch 67/100, Train Loss: 0.061891, Val Loss: 0.258823
+Epoch 68/100, Train Loss: 0.068840, Val Loss: 0.257452
+Epoch 69/100, Train Loss: 0.065004, Val Loss: 0.258552
+Epoch 70/100, Train Loss: 0.064965, Val Loss: 0.257608
+Epoch 71/100, Train Loss: 0.061207, Val Loss: 0.258105
+Epoch 72/100, Train Loss: 0.060745, Val Loss: 0.257502
+Epoch 73/100, Train Loss: 0.060586, Val Loss: 0.256898
+Epoch 74/100, Train Loss: 0.058318, Val Loss: 0.256603
+Epoch 75/100, Train Loss: 0.062392, Val Loss: 0.256735
+Epoch 76/100, Train Loss: 0.062821, Val Loss: 0.256606
+Epoch 77/100, Train Loss: 0.054675, Val Loss: 0.256043
+Epoch 78/100, Train Loss: 0.056774, Val Loss: 0.255771
+Epoch 79/100, Train Loss: 0.056071, Val Loss: 0.255875
+Epoch 80/100, Train Loss: 0.049310, Val Loss: 0.255386
+Epoch 81/100, Train Loss: 0.051195, Val Loss: 0.255739
+Epoch 82/100, Train Loss: 0.049522, Val Loss: 0.255154
+Epoch 83/100, Train Loss: 0.048848, Val Loss: 0.255599
+Epoch 84/100, Train Loss: 0.049548, Val Loss: 0.255330
+Epoch 85/100, Train Loss: 0.049044, Val Loss: 0.255907
+Epoch 86/100, Train Loss: 0.048812, Val Loss: 0.256217
+Epoch 87/100, Train Loss: 0.044521, Val Loss: 0.255339
+Early stopping triggered after 87 epochs!
+alpha,epsilon,tau_a,tau_b,r2
+Starting job with 0.5710391484696978,0.7967464438733728,0.26509131087954746,0.8017219002454925
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.3236860944706806,0.44638692010073766,0.18997742423620262,0.5133240027692806
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.6886788459308153,0.14372395110401887,0.6857996256539677,0.15077042112439026
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.5904326190500536,0.9386141563067346,0.1007008892569129,0.992990403362096
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       

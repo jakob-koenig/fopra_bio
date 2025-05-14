@@ -1,0 +1,104 @@
+Torch using device: cuda
+Jax Devices: [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad', output='/p/project1/hai_fzj_bda/koenig8/ot/tune_params/only_scaled', source_key='pca_plus_slides_scaled', target_key='uni_pca_plus_coords', linear_term='brain_area_similarities', metric='translation', random_seed=42, imbalanced=False, try_metric_spaces=False)
+adata_src.obsm contains
+['X_umap', 'brain_area_onehot', 'brain_area_similarities', 'pca_embedding', 'pca_plus_slides', 'pca_plus_slides_scaled']
+adata_target.obsm contains
+['brain_area_onehot', 'brain_area_similarities', 'uni_embedding', 'uni_pca_95', 'uni_pca_plus_coords']
+NA in Train set: False False
+NA in Val set: False False
+Adata shapes: (12500, 50) || (12500, 1536)
+NA in src_coords: False
+alpha,epsilon,tau_a,tau_b,r2, source_key, target_key, linear_term
+Starting job with 0.5710391484696978,0.07965450214303645,0.26509131087954746,0.8017219002454925, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.3236860944706806,0.04458382945260628,0.18997742423620262,0.5133240027692806, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.6886788459308153,0.014287538925376158,0.6857996256539677,0.15077042112439026, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.5904326190500536,0.09385533234886603,0.1007008892569129,0.992990403362096, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.43562961398654565
+Starting job with 0.5032881806428858,0.06116570439566762,0.10635967469774567,0.12075618253727419, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.22880506000448603,0.03998669731055385,0.1419990968922539,0.9763799669573134, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.4263229300642119
+Starting job with 0.9342370326583811,0.00906155284684755,0.6565474083997787,0.4442157921404466, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.4334692968513705,0.04667682256190476,0.8739463660626887,0.7122767847290018, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.37229151238752123,0.0013274828510254934,0.9479815801163677,0.6069593960609855, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.5765630826605744
+Starting job with 0.6522677076959308,0.0015976092557691995,0.30780444305993415,0.3169229194234106, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.30765072888242834,0.051723064745432014,0.13286579604030865,0.9800586978172445, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-0.4228180559925079
+Starting job with 0.37453655816341686,1e-06,0.9781884002485013,0.6077209765210335, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.37044133222844533,0.008631249459876951,0.9365882387189054,0.5996058291276722, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-1.105395848969884
+Starting job with 0.6224957343984227,0.0037488598134217295,0.1125728828461145,0.8665367298385985, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+-0.6705749571320617
+Starting job with 0.14164079645455724,0.003998243099189064,0.9412510560432158,0.8032392440723757, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+-2.7421407301841185
+Starting job with 0.01,1e-06,0.11335141913193059,1.0, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m12500[0m, [1;36m12500[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                

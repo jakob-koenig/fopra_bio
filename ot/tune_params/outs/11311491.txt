@@ -1,0 +1,29 @@
+Torch using device: cuda
+Jax Devices: [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad', output='/p/project1/hai_fzj_bda/koenig8/ot/tune_params/only_scaled', source_key='pca_plus_slides_scaled', target_key='uni_pca_plus_coords', linear_term='brain_area_similarities', metric='IDWE', random_seed=None, imbalanced=False, try_metric_spaces=False, cost='cosine')
+adata_src.obsm contains
+['X_umap', 'brain_area_onehot', 'brain_area_similarities', 'pca_embedding', 'pca_plus_slides', 'pca_plus_slides_scaled']
+adata_target.obsm contains
+['brain_area_onehot', 'brain_area_similarities', 'uni_embedding', 'uni_pca_95', 'uni_pca_plus_coords']
+NA in Train set: False False
+NA in Val set: False False
+Adata shapes: (20000, 50) || (20000, 1536)
+NA in src_coords: False
+alpha,epsilon,tau_a,tau_b,r2,source_key, target_key, linear_term
+Starting job with 0.7314250479844018,0.021548394423351006,0.9533940318466129,0.8957913730104391, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m20000[0m, [1;36m20000[0m[1m)[0m[1m][0m.     
+0.5327102887336158
+Starting job with 0.5644282645319336,0.06576134408604206,0.7170293232859066,0.6541493539490738, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m20000[0m, [1;36m20000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+NAN in translation:  7420000
+0.24142401326725882
+Starting job with 0.6117038982559834,0.037943616422973545,0.5000685678056159,0.6491905375655627, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m20000[0m, [1;36m20000[0m[1m)[0m[1m][0m.     

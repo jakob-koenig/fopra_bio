@@ -1,0 +1,95 @@
+Devices [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad', path='/p/project1/hai_fzj_bda/koenig8/ot/models/normalized_low_rank', alpha=0.9, epsilon=0.0, source_key='pca_plus_slides_scaled', target_key='uni_pca_plus_coords', sample_target=True, low_rank=True, linear_term='brain_area_onehot', random_seed=None)
+Adata shapes: src (50000, 50) || target (50156, 1536)
+===========================================Rank 50000==========================================
+Source Adatas: [(50000, 50)]
+Target Adatas: [(50156, 1536)]
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m50000[0m, [1;36m50156[0m[1m)[0m[1m][0m.     
+RESOURCE_EXHAUSTED: Out of memory while trying to allocate 70417897640 bytes.
+======================================FAILURE=========================================
+===========================================Rank 25000==========================================
+Source Adatas: [(50000, 50)]
+Target Adatas: [(50156, 1536)]
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m50000[0m, [1;36m50156[0m[1m)[0m[1m][0m.     
+RESOURCE_EXHAUSTED: Out of memory while trying to allocate 27546917480 bytes.
+======================================FAILURE=========================================
+===========================================Rank 12500==========================================
+Source Adatas: [(50000, 50)]
+Target Adatas: [(50156, 1536)]
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m50000[0m, [1;36m50156[0m[1m)[0m[1m][0m.     
+RESOURCE_EXHAUSTED: Out of memory while trying to allocate 2507800000 bytes.
+======================================FAILURE=========================================
+===========================================Rank 6250==========================================
+Source Adatas: [(50000, 50)]
+Target Adatas: [(50156, 1536)]
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m50000[0m, [1;36m50156[0m[1m)[0m[1m][0m.     
+RESOURCE_EXHAUSTED: Out of memory while trying to allocate 1253900000 bytes.
+======================================FAILURE=========================================
+===========================================Rank 3125==========================================
+Source Adatas: [(50000, 50)]
+Target Adatas: [(50156, 1536)]
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m50000[0m, [1;36m50156[0m[1m)[0m[1m][0m.     
+RESOURCE_EXHAUSTED: Out of memory while trying to allocate 625000000 bytes.
+======================================FAILURE=========================================
+===========================================Rank 1562==========================================
+Source Adatas: [(50000, 50)]
+Target Adatas: [(50156, 1536)]
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m50000[0m, [1;36m50156[0m[1m)[0m[1m][0m.     
+RESOURCE_EXHAUSTED: Out of memory while trying to allocate 312400000 bytes.
+======================================FAILURE=========================================
+===========================================Rank 781==========================================
+Source Adatas: [(50000, 50)]
+Target Adatas: [(50156, 1536)]
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m50000[0m, [1;36m50156[0m[1m)[0m[1m][0m.     
+RESOURCE_EXHAUSTED: Out of memory while trying to allocate 156200000 bytes.
+======================================FAILURE=========================================
+===========================================Rank 390==========================================
+Source Adatas: [(50000, 50)]
+Target Adatas: [(50156, 1536)]
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m50000[0m, [1;36m50156[0m[1m)[0m[1m][0m.     
+RESOURCE_EXHAUSTED: Out of memory while trying to allocate 78243360 bytes.
+======================================FAILURE=========================================
+===========================================Rank 195==========================================
+Source Adatas: [(50000, 50)]
+Target Adatas: [(50156, 1536)]
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m50000[0m, [1;36m50156[0m[1m)[0m[1m][0m.     
+RESOURCE_EXHAUSTED: Out of memory while trying to allocate 74832752 bytes.
+======================================FAILURE=========================================
+===========================================Rank 97==========================================
+Source Adatas: [(50000, 50)]
+Target Adatas: [(50156, 1536)]
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m50000[0m, [1;36m50156[0m[1m)[0m[1m][0m.     
+RESOURCE_EXHAUSTED: Out of memory while trying to allocate 74832752 bytes.
+======================================FAILURE=========================================
+Stopped at rank: 97

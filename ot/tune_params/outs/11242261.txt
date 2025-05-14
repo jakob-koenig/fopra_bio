@@ -1,0 +1,517 @@
+Torch using device: cuda
+Jax Devices: [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/translation2/adata_histo.h5ad', output='/p/project1/hai_fzj_bda/koenig8/ot/tune_params/imbalanced_problem', source_key='pca_embedding', target_key='uni_pca_95', linear_term='brain_area_onehot', metric='translation', random_seed=42, imbalanced=True)
+NA in Train set: False False
+NA in Val set: False False
+NA in src_coords: False
+alpha,epsilon,tau_a,tau_b,r2
+Starting job with 0.5710391484696978,0.7967464438733728,0.26509131087954746,0.8017219002454925
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.3236860944706806,0.44638692010073766,0.18997742423620262,0.5133240027692806
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.6886788459308153,0.14372395110401887,0.6857996256539677,0.15077042112439026
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.5904326190500536,0.9386141563067346,0.1007008892569129,0.992990403362096
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-34.66540316503956
+Starting job with 0.5032881806428858,0.6120415073277927,0.10635967469774567,0.12075618253727419
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.22880506000448603,0.40046111074354035,0.1419990968922539,0.9763799669573134
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-112.62506659945423
+Starting job with 0.9342370326583811,0.091515828098288,0.6565474083997787,0.4442157921404466
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.4334692968513705,0.46729613035473205,0.8739463660626887,0.7122767847290018
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-41.39006116272163
+Starting job with 0.37229151238752123,0.014251696198706667,0.9479815801163677,0.6069593960609855
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-300.0916379016024
+Starting job with 0.6522677076959308,0.016950285967993986,0.30780444305993415,0.3169229194234106
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.24769946707383725,0.43017527593227,0.13821756693787324,0.9814978255643879
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-106.56410731963228
+Starting job with 0.4306505177613171,0.44938740549128897,0.8823029435924803,0.7101326786781482
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-50.525187267053205
+Starting job with 0.45828972731967843,0.7078994533376963,0.12180719558880139,0.9838813143587616
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-42.73031367903783
+Starting job with 0.3945078081504966,0.028036321101225753,0.9517328224236598,0.6107292741470163
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-296.9924929182626
+Starting job with 0.4099085061340441,0.6675446073300112,0.12342562046669402,0.9837843463716349
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-50.13237261873488
+Starting job with 0.2505845757049871,0.42403873938613423,0.13379395017000345,0.9814418426406489
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-106.61391348020595
+Starting job with 0.6314179089529548,1.0,0.10017662653751863,0.9891421178030042
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-33.78632195795979
+Starting job with 0.3972228027616943,0.48540477405251636,0.8812745766047805,0.7111061672235371
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-38.66239915215792
+Starting job with 0.2104966293472111,0.41298189377277816,0.1372831829839443,0.9815777404297025
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-112.01913447879166
+Starting job with 0.44433518778483694,0.4242243556194999,0.8812799462037365,0.711048573742545
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-42.85683782369753
+Starting job with 0.2784224411274144,0.4671807509386055,0.13670137172850055,0.981497360050647
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-97.98143685215751
+Starting job with 0.43174579846318323,0.46541976707591387,0.8848445825148248,0.7107754258442421
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-46.090398825409835
+Starting job with 0.6702934078413643,1.0,0.11006189410992193,0.9801261169334525
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-33.408283031855625
+Starting job with 0.3882491946231727,0.011415259732540504,0.9683918748943056,0.6090009785585542
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-302.0548544656316
+Starting job with 0.4424697120085419,0.4724710079850602,0.8672134659063477,0.7107525737254723
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-40.94536955370187
+Starting job with 0.4271328033398721,0.4617975208396834,0.8801503527334091,0.710771484895083
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-38.38554239095701
+Starting job with 0.4026183229308476,0.4711592245361488,0.8763740238393558,0.7107984022459422
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-38.37122846259884
+Starting job with 0.43571956716510996,0.4547923217003194,0.8805085013696166,0.7107851865306811
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-313.93445195882396
+Starting job with 0.5998360903309436,0.9216528900995656,0.1136600361433337,0.9800960460307528
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-34.15502100371738
+Starting job with 0.6806731816957847,1.0,0.12083196926637485,0.9801497098061043
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-33.362922235015155
+Starting job with 0.21092409761138564,0.05623094269909385,0.7892371604722062,0.6089750284094009
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.46713786403937074,0.5287086854861119,0.8714695554383006,0.7123117458251644
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-43.037145532054865
+Starting job with 0.3380689391863812,0.40236718768237106,0.8716108268604063,0.7124277838917931
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-52.21532827364991
+Starting job with 0.40583601622547777,0.5460955067956736,0.13953827642962305,0.985628007403741
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-61.03340805801526
+Starting job with 0.95,0.6202424375186056,0.892436000929029,0.6965094367783515
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-34.4052074880446
+Starting job with 0.42946190334516005,0.4677311892273888,0.8719367275401428,0.7124922263956717
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-314.0454391791239
+Starting job with 0.3621775170080776,0.4613227532898691,0.8709173407627993,0.7128394546504987
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-42.05922529681904
+Starting job with 0.391344967261946,0.42803832500514877,0.8715108439459662,0.7129774772920953
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-42.350458015803554
+Starting job with 0.20196131329909006,0.40169412073887106,0.13904126868094138,0.9831308091054615
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-112.69061700999607
+Starting job with 0.3393120434427235,0.4735444489534695,0.8716364874161721,0.7133762927394228
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-57.97883605040584
+Starting job with 0.95,0.5948896129523783,0.8897668033193927,0.69594626266072
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-34.39574483834166
+Starting job with 0.2502187561322192,0.4976568323919724,0.8711266770630872,0.7160809143658486
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-56.68982422956665
+Starting job with 0.4976966121797153,0.47016273786569407,0.8715979345986031,0.7125795095383715
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-309.3540022858888
+Starting job with 0.597736092731353,0.4704758884622338,0.8877522732989998,0.6970758888172011
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-37.05869973955463
+Starting job with 0.2530787517665037,0.5330376324492109,0.8709541204163717,0.7163778936473701
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-313.75802944917626
+Starting job with 0.7370515228419214,0.41438636352965763,0.8865487956450159,0.6977811644801135
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-36.74939704454223
+Starting job with 0.7285064014617662,0.36887956144031586,0.8860726462425006,0.6977510265176897
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-38.82786268354466
+Starting job with 0.1848598332273556,0.3376504055155074,0.1390659914341043,0.983581141226061
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-118.60575303145193
+Starting job with 0.7167156947151199,0.3965586104183154,0.8861375923125264,0.6980791227306474
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-37.281648616358794
+Starting job with 0.4167521317796684,0.6783592116512883,0.11867244040239318,0.9797510889698696
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-46.934536509447774
+Starting job with 0.3405338801897458,0.001,0.9594258761545108,0.6057108718024227
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-362.8833091361232
+Starting job with 0.01,0.001,0.9354841634911416,0.6408990789806939
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.31950759956941077,0.011560624455147994,0.9590238388395251,0.6081435423018517
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-301.2503623113176
+Starting job with 0.7723120186827201,0.033046986318150354,0.9577488438996713,0.609667336229642
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-281.80474848112425
+Starting job with 0.0123278447608745,0.041162227390566755,0.9606170049704108,0.6090918194375193
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-295.9262819765593
+Starting job with 0.01,0.9718841233517782,0.882799983629817,0.7126660594264997
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-312.3000264462512
+Starting job with 0.2738987002995601,0.016775037782424482,0.9553986342084192,0.6091902967300825
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-300.2857973833624
+Starting job with 0.661272560266173,1.0,0.10372418099340716,0.9914332099969888
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-33.554751989877865
+Starting job with 0.6781718190045299,0.001,0.87591417383984,0.7108780104019778
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-1000000.0
+Starting job with 0.01,0.4427300098835018,0.8662099765331963,0.7099116027239102
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-311.3773676466166
+Starting job with 0.5708039807926355,0.5177898378065441,0.8897820989234113,0.6963396238955948
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-77.80109076766226
+Starting job with 0.5576502249811466,0.4184017924946808,0.8771807713811254,0.7112663975841249
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-37.624687042183005
+Starting job with 0.6432269230282087,0.547380592951971,0.8803025358697738,0.7106340660025756
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-314.12341343130737
+Starting job with 0.7122579402672135,0.991284036456398,0.11088606378985738,0.9809735141546082
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-33.220023166670835
+Starting job with 0.4861962753292737,0.5107826703661221,0.8907444443840349,0.6961170953150975
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-313.95979267611665
+Starting job with 0.8922880641808548,0.6113243239211176,0.8892293732164895,0.6969685450774901
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-35.21555677158207
+Starting job with 0.569142589540538,0.42181549033411736,0.8725874509457224,0.7113343927038595
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-55.21204370502762
+Starting job with 0.37663008835065426,0.9424132970584782,0.8883836817821148,0.7084026177080257
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-313.76839219633604
+Starting job with 0.1723768224259825,0.5780252634521,0.1328332147560302,0.9827676064048686
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-108.66891347917449
+Starting job with 0.051785220023844426,0.6039270009563948,0.8876112468324503,0.6974447564901274
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-275.68445516422673
+Starting job with 0.6798315919833513,0.9945611341160079,0.11485956458326282,0.9806175771137328
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-33.368416657680115
+Starting job with 0.0203335768790665,0.41571641934087594,0.8750440337250652,0.7112173284365856
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-311.3084558972371
+Starting job with 0.6790590257399842,0.9885648469909891,0.103329695060968,0.9903850137383762
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+-33.426965282539086
+Starting job with 0.7634181194340606,1.0,0.11695252992981053,0.9804860718408696
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-33.065068351882125
+Starting job with 0.6046844457025817,0.42694344384487853,0.8717396559571041,0.7122043289159385
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m631[0m, [1;36m12500[0m[1m)[0m[1m][0m.       
+[33mWARNING [0m Solver did not converge                                                
+-36.419685541293894
+Optimal Parameters:
+  α (alpha): 1.0
+  ε (epsilon): 0.11695252992981053
+  τₐ (tau_a): 0.9804860718408696
+  τᵦ (tau_b): 0.7634181194340606
+Maximum translation Achieved: -33.065068351882125

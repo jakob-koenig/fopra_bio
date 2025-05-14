@@ -1,0 +1,77 @@
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_vx=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for this output (/p/software/juwelsbooster/lmod/8.7.49/init/bash)
+Shell debugging restarted
++ unset __lmod_vx
++ module load Stages/2023
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+  [01;33mThis stage is deprecated. Please consider moving to a new stage (2025
+or newer)[0m
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load GCCcore/.11.3.0
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load Python/3.10.4
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ source /p/project1/hai_fzj_bda/koenig8/jupyter/kernels/opt_transport/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/opt_transport
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/p/software/juwelsbooster/stages/2023/software/Python/3.10.4-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/XZ/5.2.5-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/SQLite/3.38.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/Tcl/8.6.12-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/bzip2/1.0.8-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/ncurses/6.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/binutils/2.38-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/GCCcore/11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/OpenSSL/1.1/bin:/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/opt_transport/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/jsc/bin:/usr/local/jsc/bin:/opt/parastation/bin:/p/software/juwelsbooster/bin
+++ PATH=/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/opt_transport/bin:/p/software/juwelsbooster/stages/2023/software/Python/3.10.4-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/XZ/5.2.5-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/SQLite/3.38.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/Tcl/8.6.12-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/bzip2/1.0.8-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/ncurses/6.3-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/binutils/2.38-GCCcore-11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/GCCcore/11.3.0/bin:/p/software/juwelsbooster/stages/2023/software/OpenSSL/1.1/bin:/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/opt_transport/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/jsc/bin:/usr/local/jsc/bin:/opt/parastation/bin:/p/software/juwelsbooster/bin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(opt_transport) '
+++ export PS1
+++ VIRTUAL_ENV_PROMPT='(opt_transport) '
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
++ PYTHONPATH=/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/opt_transport/lib/python3.10/site-packages/:/p/software/juwelsbooster/stages/2023/software/Python/3.10.4-GCCcore-11.3.0/easybuild/python:/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/opt_transport/lib/python3.10/site-packages
++ srun python -u translate.py -s /p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad -t /p/project1/hai_fzj_bda/koenig8/ot/data/translation2/adata_histo.h5ad -p /p/project1/hai_fzj_bda/koenig8/ot/models/sampled_targets --target_key uni_pca_95 --linear_term xyz
+/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/opt_transport/lib/python3.10/site-packages/anndata/_core/anndata.py:1756: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/opt_transport/lib/python3.10/site-packages/plotnine/ggplot.py:789: PlotnineWarning: Filename: /p/project1/hai_fzj_bda/koenig8/ot/models/sampled_targets/cost_plot.pdf
+/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/opt_transport/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/opt_transport/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/opt_transport/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/opt_transport/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/opt_transport/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+/p/project1/hai_fzj_bda/koenig8/jupyter/kernels/opt_transport/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
++ cp outs/11208225.txt /p/project1/hai_fzj_bda/koenig8/ot/models/sampled_targets/log.txt

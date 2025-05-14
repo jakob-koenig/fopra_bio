@@ -1,0 +1,18 @@
+Torch using device: cuda
+Jax Devices: [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad', output='/p/project1/hai_fzj_bda/koenig8/ot/tune_params/only_scaled', source_key='pca_plus_slides_scaled', target_key='uni_pca_plus_coords', linear_term='brain_area_similarities', metric='IDWE', random_seed=None, imbalanced=False, try_metric_spaces=False, cost='cosine')
+adata_src.obsm contains
+['X_umap', 'brain_area_onehot', 'brain_area_similarities', 'pca_embedding', 'pca_plus_slides', 'pca_plus_slides_scaled']
+adata_target.obsm contains
+['brain_area_onehot', 'brain_area_similarities', 'uni_embedding', 'uni_pca_95', 'uni_pca_plus_coords']
+NA in Train set: False False
+NA in Val set: False False
+Adata shapes: (20000, 50) || (20000, 1536)
+NA in src_coords: False
+alpha,epsilon,tau_a,tau_b,r2,source_key, target_key, linear_term
+Starting job with 0.22034254333796852,0.07250479708094028,0.6729536412694023,0.8356897136712944, pca_plus_slides_scaled, uni_pca_plus_coords, brain_area_similarities
+Source, Target: ('pca_plus_slides_scaled', 'uni_pca_plus_coords')
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m20000[0m, [1;36m20000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                

@@ -1,0 +1,72 @@
+Brain area prediction performance on test set
+              precision    recall  f1-score   support
+
+          CB       0.93      0.93      0.93       962
+       CTXsp       0.61      0.77      0.68       187
+          HB       0.88      0.82      0.85      1068
+         HIP       0.79      0.86      0.82       410
+          HY       0.75      0.76      0.76       444
+   Isocortex       0.98      0.88      0.93      2532
+         LSX       0.57      0.81      0.67        90
+          MB       0.82      0.81      0.82       867
+         OLF       0.86      0.83      0.84       832
+         PAL       0.10      0.20      0.13         5
+         RHP       0.72      0.84      0.78       476
+        STRd       0.86      0.89      0.87       449
+        STRv       0.70      0.79      0.74       270
+          TH       0.82      0.88      0.85       483
+        sAMY       0.56      0.77      0.65       142
+   ventricle       0.44      0.60      0.50       184
+white_matter       0.53      0.49      0.51       599
+
+    accuracy                           0.83     10000
+   macro avg       0.70      0.76      0.73     10000
+weighted avg       0.84      0.83      0.83     10000
+
+Brain area prediction performance on translated source
+              precision    recall  f1-score   support
+
+          CB       1.00      0.96      0.98      3488
+       CTXsp       1.00      1.00      1.00       148
+          HB       0.00      0.00      0.00      1963
+         HIP       1.00      1.00      1.00      1094
+          HY       1.00      1.00      1.00       710
+   Isocortex       0.90      1.00      0.95     23602
+         LSX       1.00      1.00      1.00        20
+          MB       1.00      1.00      1.00      2760
+          MY       0.00      0.00      0.00         0
+         OLF       0.97      1.00      0.98      5363
+           P       0.00      0.00      0.00         0
+         PAL       0.00      0.00      0.00         0
+         RHP       1.00      1.00      1.00       609
+        STRd       1.00      0.88      0.94      1887
+        STRv       1.00      0.99      1.00       198
+          TH       1.00      1.00      1.00       597
+        sAMY       1.00      1.00      1.00        40
+   ventricle       1.00      1.00      1.00       114
+white_matter       0.89      0.58      0.71      7407
+
+    accuracy                           0.89     50000
+   macro avg       0.78      0.76      0.77     50000
+weighted avg       0.90      0.89      0.89     50000
+
+
+Location regression R2 on test set: 0.7779606350993727 
+Location regression R2 on translation -2.9983019219489404 
+
+Coordinate interpolation score: 0.13730340665145502 
+Translation metric based coordinate interpolation score: 0.20675300638649216 
+path: /p/project1/hai_fzj_bda/koenig8/ot/models/low_alpha
+source file: /p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad
+target file: /p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad
+alpha: 0.13
+epsilon: 0.076341
+source_key: pca_embedding
+target_key: uni_pca_95
+linear_term: brain_area_onehot
+tau_a: 1.0
+tau_b: 1.0
+fused: True
+random_seed: None
+sample_target: True
+low_rank: False

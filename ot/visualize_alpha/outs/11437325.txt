@@ -1,0 +1,44 @@
+Devices [CudaDevice(id=0)]
+Arguments:
+Namespace(source='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_st.h5ad', target='/p/project1/hai_fzj_bda/koenig8/ot/data/adata_histo.h5ad', path='/p/project1/hai_fzj_bda/koenig8/ot/visualize_alpha/epsilon', source_key='pca_embedding', target_key='uni_pca_95', linear_term='brain_area_onehot', random_seed=713)
+Adata shape: (50000, 1536)
+Histology brain area classification:               precision    recall  f1-score   support
+
+          CB       0.93      0.89      0.91       488
+       CTXsp       0.60      0.67      0.63        93
+          HB       0.84      0.82      0.83       530
+         HIP       0.75      0.82      0.79       198
+          HY       0.74      0.71      0.72       226
+   Isocortex       0.96      0.87      0.92      1272
+         LSX       0.63      0.72      0.67        46
+          MB       0.82      0.80      0.81       424
+         OLF       0.83      0.81      0.82       425
+         PAL       0.00      0.00      0.00         2
+         RHP       0.71      0.82      0.76       240
+        STRd       0.79      0.83      0.81       221
+        STRv       0.64      0.69      0.66       137
+          TH       0.79      0.77      0.78       240
+        sAMY       0.39      0.58      0.47        71
+   ventricle       0.39      0.57      0.47        91
+white_matter       0.44      0.46      0.45       296
+
+    accuracy                           0.80      5000
+   macro avg       0.66      0.70      0.68      5000
+weighted avg       0.81      0.80      0.80      5000
+
+[Loading data] Time since last: 4.821 s
+Beginning the solving
+epsilon: 0.001
+Solving
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[34mINFO    [0m Solving `[1;36m1[0m` problems                                                   
+[34mINFO    [0m Solving problem OTProblem[1m[[0m[33mstage[0m=[32m'prepared'[0m, [33mshape[0m=[1m([0m[1;36m25000[0m, [1;36m25000[0m[1m)[0m[1m][0m.     
+[33mWARNING [0m Solver did not converge                                                
+Switched JAX to CPU mode.
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[33mWARNING [0m Densifying data in `adata.obsm[1m[[0m[32m'brain_area_onehot'[0m[1m][0m`                   
+[Solving] Time since last: 209.170 s
+Performing 5 translation steps
+_____
+■■
